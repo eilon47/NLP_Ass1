@@ -1,9 +1,16 @@
 
+SPECIALS = ["^Xy", "^XY", "^Xing", "^Xed", "^Xs","^X's"]
+
 def add_count_to_dict(count_dict, key):
     if key not in count_dict.keys():
         count_dict[key] = 1
     else:
         count_dict[key] += 1
+
+
+def is_speciel_signature(word):
+    i = 0;
+    return SPECIALS[i]
 
 
 def create_estimates(file_name, q_file, e_file):
