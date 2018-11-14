@@ -49,7 +49,6 @@ def getQ(q_dict,tag1, tag2, tag3, num_words):
 
 
 
-SPECIALS = ["^Xy", "^XY", "^Xing", "^Xed", "^Xs","^X's"]
 
 def add_count_to_dict(count_dict, key):
     if key not in count_dict.keys():
@@ -58,9 +57,29 @@ def add_count_to_dict(count_dict, key):
         count_dict[key] += 1
 
 
+SPECIALS = ["UNK","^Xy", "^XY", "^Xing", "^Xed","^X's", "^Xs"]
+
 def is_speciel_signature(word):
-    i = 0;
-    return SPECIALS[i]
+    sig = SPECIALS[0]
+    word_as_letters = list(word)
+
+    #1 - prefix
+    if word_as_letters[0].isupper():
+        if word_as_letters[1].isupper():
+            sig = SPECIALS[2]
+        else:
+            sig = SPECIALS[1]
+
+    #2 - postfix
+    elif str(word_as_letters[-3:-1]) == "ing":
+        sig = SPECIALS[3]
+    elif str(word_as_letters[-2:-1]) == "ed":
+        sig = SPECIALS[4]
+    elif str(word_as_letters[-2:-1]) == "'s":
+            sig = SPECIALS[5]
+    elif word_as_letters[-1] == 's':
+        sig = SPECIALS[6]
+    return sig
 
 
 def create_estimates(file_name, q_file, e_file):

@@ -5,19 +5,28 @@ import numpy as np
 S_TAGS = ['START']
 tags = ['a','b','c']
 
+def get_num_of_words(w_dict):
+    num_of_words = 0
+    for word in w_dict:
+        num_of_words += int(w_dict[word])
+    return num_of_words
+
 def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict):
     max_yi = 0
     arg_max = ''
+    num_of_words = get_num_of_words(w_dict)
     #add how to calculate q(y1|start,start)
     if word in w_dict.keys():
         for yi in t_dict.key():
-            temp_q = np.log(mle.getQ(q_dict,prev_prev_tag,prev_tag,yi))
+            temp_q = np.log(mle.getQ(q_dict,prev_prev_tag,prev_tag,yi,num_of_words))
             temp_e = np.log(mle.getE(word,yi,q_dict,e_dict))
             if(temp_e+temp_q) > max_yi:
                 max_yi = temp_e+temp_q
                 arg_max = yi
     else:
-        # add tagging UNK words
+        #tag UNK words here
+        yi  = 0
+
     return arg_max
 
 def tag_sencence(in_file,out_file,q_dict,e_dict,w_dict,t_dict):
