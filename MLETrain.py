@@ -1,12 +1,15 @@
 import mle
 import sys
 
+SPECIALS = ["UNK","^Xy", "^XY", "^Xing", "^Xed","^X's", "^Xs"]
 
 def create_dictionaries(q_mle, e_mle):
     q_dict = {}
     e_dict = {}
     words_dict = {}
     tags_dict = {}
+    unk_dict = {}
+    # creating the q dictionary
     fd_q = open(q_mle, 'r')
     for line in fd_q:
         line = line.strip()
@@ -15,18 +18,29 @@ def create_dictionaries(q_mle, e_mle):
         key, counter = line.split('\t')
         #if counter.strip().isnumeric():
         q_dict[key] = int(counter.strip())
+    # creating the e dictionary
     fd_e = open(e_mle, 'r')
     for line in fd_e:
         line = line.strip()
         if line == "":
             continue
+        # gets key val as (w,t)->counter
         key, counter = line.split('\t')
+        # gets w,t
         word,tag = key.split(' ')
-        #if counter.strip().isnumeric():
+        # if counter.strip().isnumeric():
         e_dict[key] = int(counter.strip())
-        words_dict[word] = 1
-        tags_dict[tag] = 1
-    return q_dict, e_dict, words_dict,tags_dict
+
+        # updating the UNK dictionary
+        signature = get_speciel_signature(word)
+        unk = (signature,tag)
+        add_count_to_dict(unk_dict,unk)
+
+        # updating the words and tags dictionary
+        add_count_to_dict(words_dict,word)
+        add_count_to_dict(tags_dict,tag)
+
+    return q_dict, e_dict, words_dict,tags_dict,unk_dict
 
 
 def getE(word, tag, q_dict, e_dict):
@@ -47,9 +61,6 @@ def getQ(q_dict,tag1, tag2, tag3, num_words):
     return q
 
 
-
-
-
 def add_count_to_dict(count_dict, key):
     if key not in count_dict.keys():
         count_dict[key] = 1
@@ -57,9 +68,7 @@ def add_count_to_dict(count_dict, key):
         count_dict[key] += 1
 
 
-SPECIALS = ["UNK","^Xy", "^XY", "^Xing", "^Xed","^X's", "^Xs"]
-
-def is_speciel_signature(word):
+def get_speciel_signature(word):
     sig = SPECIALS[0]
     word_as_letters = list(word)
 
