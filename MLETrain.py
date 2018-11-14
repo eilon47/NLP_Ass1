@@ -21,10 +21,11 @@ def create_dictionaries(q_mle, e_mle):
         if line == "":
             continue
         key, counter = line.split('\t')
+        word,tag = key.split(' ')
         #if counter.strip().isnumeric():
         e_dict[key] = int(counter.strip())
-        words_dict[key[0]] += 1
-        tags_dict[key[1]] += 1
+        words_dict[word] = 1
+        tags_dict[tag] = 1
     return q_dict, e_dict, words_dict,tags_dict
 
 
@@ -111,7 +112,7 @@ if __name__ == '__main__':
     e_mle = sys.argv[3]
 
     create_estimates(file_name,q_mle, e_mle)
-    q_dict, e_dict = create_dictionaries(q_mle, e_mle)
+    q_dict, e_dict, w,t = create_dictionaries(q_mle, e_mle)
     print ' '
 
 
