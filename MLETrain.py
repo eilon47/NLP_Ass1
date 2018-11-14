@@ -5,6 +5,8 @@ import sys
 def create_dictionaries(q_mle, e_mle):
     q_dict = {}
     e_dict = {}
+    words_dict = {}
+    tags_dict = {}
     fd_q = open(q_mle, 'r')
     for line in fd_q:
         line = line.strip()
@@ -21,7 +23,9 @@ def create_dictionaries(q_mle, e_mle):
         key, counter = line.split('\t')
         #if counter.strip().isnumeric():
         e_dict[key] = int(counter.strip())
-    return q_dict, e_dict
+        words_dict[key[0]] += 1
+        tags_dict[key[1]] += 1
+    return q_dict, e_dict, words_dict,tags_dict
 
 
 def getE(word, tag, q_dict, e_dict):
