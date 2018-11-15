@@ -1,3 +1,4 @@
+from __future__ import division
 import mle
 import sys
 
@@ -28,6 +29,8 @@ def create_dictionaries(q_mle, e_mle):
         key, counter = line.split('\t')
         # gets w,t
         word,tag = key.split(' ')
+        if word == "and":
+            print ' '
         # if counter.strip().isnumeric():
         e_dict[key] = int(counter.strip())
 
@@ -44,6 +47,49 @@ def create_dictionaries(q_mle, e_mle):
     return q_dict, e_dict, words_dict,tags_dict,unk_dict
 
 
+
+def check_dict(tag1,tag2,tag3,q_dict):
+    if tag3 == 0:
+        if str(tag1 + " " + tag2) in q_dict.keys():
+            return True
+        else:
+            return False
+    if str(tag1+" "+tag2+" "+tag3) in q_dict.keys():
+        return True
+    return False
+
+def getQ(q_dict,tag1, tag2, tag3, num_words):
+    if tag1 == "START":
+        if tag1 == "START" and tag2 == "START":
+            return q_dict[tag3]/num_words
+        bc = q_dict[" ".join([tag2, tag3]).strip()]
+        c = q_dict[tag3]
+        b = q_dict[tag2]
+        return (1/3)*(bc/b) + (1/6)* (c/num_words)
+    if check_dict(tag1,tag2,tag3,q_dict):
+        abc = q_dict[" ".join([tag1, tag2, tag3]).strip()]
+    else:
+        abc = 1
+    if check_dict(tag1, tag2, 0, q_dict):
+        ab = q_dict[" ".join([tag1, tag2]).strip()]
+    else:
+        ab = 1
+    if check_dict(tag2,tag3,0,q_dict):
+        bc = q_dict[" ".join([tag2, tag3]).strip()]
+    else:
+        bc = 1
+    if tag3 in q_dict.keys() and tag2 in q_dict.keys():
+        c = q_dict[tag3]
+        b = q_dict[tag2]
+    else:
+        b = 1
+        c = 1
+    l1 = 1/2
+    l2 = 1/3
+    l3 = 1/6
+    q = l1*(abc/ab) + l2*(bc/b) + l3* (c/num_words)
+    return q
+
 def getE(word, tag, q_dict, e_dict,unk_dict):
     key = word + " " + tag
     if key not in e_dict.keys():
@@ -56,41 +102,6 @@ def getE(word, tag, q_dict, e_dict,unk_dict):
         count_word_tag = e_dict[key]
     count_tag = q_dict[tag]
     return count_word_tag / count_tag
-
-def check_dict(tag1,tag2,tag3,q_dict):
-    if (tag1,tag2,tag3) in q_dict.keys():
-        return True
-    return False
-
-def getQ(q_dict,tag1, tag2, tag3, num_words):
-    if tag1 == "START":
-        if tag1 == "START" and tag2 == "START":
-            return q_dict[tag3]/num_words
-        bc = q_dict[" ".join([tag2, tag3]).strip()]
-        c = q_dict[tag3]
-        b = q_dict[tag2]
-        return  (1/2)*(bc/b) + (1/2)* (c/num_words)
-    if check_dict(tag1,tag2,tag3,q_dict):
-        abc = q_dict[" ".join([tag1, tag2, tag3]).strip()]
-    else:
-        abc = 0
-    if check_dict(tag1, tag2, 0, q_dict):
-        ab = q_dict[" ".join([tag1, tag2]).strip()]
-    else:
-        ab = 1
-    if check_dict(tag2,tag3,0,q_dict):
-        bc = q_dict[" ".join([tag2, tag3]).strip()]
-    else:
-        bc = 0
-    if tag3 in q_dict.keys() and tag2 in q_dict.keys():
-        c = q_dict[tag3]
-        b = q_dict[tag2]
-    else:
-        b = 1
-        c = 1
-    l1, l2, l3 = 1/2, 1/3, 1/6
-    q = l1*(abc/ab) + l2*(bc/b) + l3* (c/num_words)
-    return q
 
 
 def add_count_to_dict(count_dict, key):

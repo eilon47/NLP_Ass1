@@ -2,6 +2,7 @@ import sys
 import MLETrain as mle
 import numpy as np
 
+
 S_TAGS = ['START']
 tags = ['a','b','c']
 
@@ -18,8 +19,12 @@ def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict)
     #in case we already know the word
     if word in w_dict.keys():
         for yi in t_dict.keys():
-            temp_q = np.log(mle.getQ(q_dict,prev_prev_tag,prev_tag,yi,num_of_words))
-            temp_e = np.log(mle.getE(word,yi,q_dict,e_dict,unk_dict))
+            if str(prev_prev_tag+" "+prev_tag+" "+yi) not in q_dict.keys():
+                continue
+
+            # add log
+            temp_q = mle.getQ(q_dict,prev_prev_tag,prev_tag,yi,num_of_words)
+            temp_e = mle.getE(word,yi,q_dict,e_dict,unk_dict)
             if(temp_e+temp_q) > max_yi:
                 max_yi = temp_e+temp_q
                 arg_max = yi
@@ -46,10 +51,13 @@ def tag_sencence(in_file,out_file,q_dict,e_dict,w_dict,t_dict,unk_dict):
         p_p_t = S_TAGS[0]
         p_t = S_TAGS[0]
         for word in spaces_split_data:
+            if word == "and":
+                print ' '
             t = tag_word(p_p_t,p_t,word,q_dict,e_dict,w_dict,t_dict,unk_dict)
             p_p_t = p_t
             p_t = t
             fd.write(str(word+'/'+t+' '))
+            print str(word+'/'+t+' ')
 
 
 if __name__ == '__main__':
