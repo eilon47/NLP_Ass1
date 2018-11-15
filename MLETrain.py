@@ -1,8 +1,26 @@
 from __future__ import division
-import mle
+
+import os
 import sys
 
-SPECIALS = ["UNK","^Xy", "^XY", "^Xing", "^Xed","^X's", "^Xs","xy"]
+
+l1, l2, l3 = 1.0/2, 1.0/3, 1.0/6
+
+
+class Specials:
+    def __init__(self):
+        pass
+
+    UNK = "UNK"
+    Xy = "^Xy"
+    XY = "^XY"
+    Xing = "^Xing"
+    Xed = "^Xed"
+    X_s = "^X's"
+    Xs = "^Xs"
+    xy = "^xy"
+    NUM = "NUM"
+
 
 def create_dictionaries(q_mle, e_mle):
     q_dict = {}
@@ -35,7 +53,7 @@ def create_dictionaries(q_mle, e_mle):
         e_dict[key] = int(counter.strip())
 
         # updating the UNK dictionary
-        signature = get_speciel_signature(word)
+        signature = get_special_signature(word)
         if signature is not None:
             unk = (signature,tag)
             add_count_to_dict(unk_dict,unk)
@@ -44,8 +62,9 @@ def create_dictionaries(q_mle, e_mle):
         add_count_to_dict(words_dict,word)
         add_count_to_dict(tags_dict,tag)
 
+    fd_e.close()
+    fd_q.close()
     return q_dict, e_dict, words_dict,tags_dict,unk_dict
-
 
 
 def check_dict(tag1,tag2,tag3,q_dict):
@@ -58,42 +77,42 @@ def check_dict(tag1,tag2,tag3,q_dict):
         return True
     return False
 
-def getQ(q_dict,tag1, tag2, tag3, num_words):
+
+def get_q(q_dict,tag1, tag2, tag3, num_words):
+    global l1, l2, l3
+    c = float(q_dict[tag3])
+    b, ab, bc, abc = [1.0] * 4
     if tag1 == "START":
         if tag1 == "START" and tag2 == "START":
-            return q_dict[tag3]/num_words
-        bc = q_dict[" ".join([tag2, tag3]).strip()]
-        c = q_dict[tag3]
-        b = q_dict[tag2]
-        return (1/3)*(bc/b) + (1/6)* (c/num_words)
-    if check_dict(tag1,tag2,tag3,q_dict):
-        abc = q_dict[" ".join([tag1, tag2, tag3]).strip()]
-    else:
-        abc = 1
-    if check_dict(tag1, tag2, 0, q_dict):
-        ab = q_dict[" ".join([tag1, tag2]).strip()]
-    else:
-        ab = 1
-    if check_dict(tag2,tag3,0,q_dict):
-        bc = q_dict[" ".join([tag2, tag3]).strip()]
-    else:
-        bc = 1
-    if tag3 in q_dict.keys() and tag2 in q_dict.keys():
-        c = q_dict[tag3]
-        b = q_dict[tag2]
-    else:
-        b = 1
-        c = 1
-    l1 = 1/2
-    l2 = 1/3
-    l3 = 1/6
+            return l3*(c/num_words)
+        bc = float(q_dict[" ".join([tag2, tag3]).strip()])
+        b = float(q_dict[tag2])
+        return l2*(bc/b) + l3* (c/num_words)
+    abc_t, ab_t, bc_t, b_t = get_combinations(tag1, tag2, tag3)
+    if abc_t in q_dict.keys():
+        abc = float(q_dict[abc_t])
+    if ab_t in q_dict.keys():
+        ab = float(q_dict[ab_t])
+    if bc_t in q_dict.keys():
+        bc = float(q_dict[bc_t])
+    if b_t in q_dict.keys:
+        b = float(q_dict[b_t])
     q = l1*(abc/ab) + l2*(bc/b) + l3* (c/num_words)
     return q
 
-def getE(word, tag, q_dict, e_dict,unk_dict):
+
+def get_combinations(tag1, tag2, tag3):
+    abc = " ".join([tag1, tag2, tag3])
+    bc = " ".join([tag2, tag3])
+    ab = " ".join([tag1, tag2])
+    b = tag2
+    return abc, ab, bc, b
+
+
+def get_e(word, tag, q_dict, e_dict,unk_dict):
     key = word + " " + tag
     if key not in e_dict.keys():
-        signature = get_speciel_signature(word)
+        signature = get_special_signature(word)
         if (signature,tag) in unk_dict.keys():
             count_word_tag = unk_dict[signature,tag]
         else:
@@ -111,29 +130,31 @@ def add_count_to_dict(count_dict, key):
         count_dict[key] += 1
 
 
-def get_speciel_signature(word):
+def get_special_signature(word):
+    if word.strip().isnumeric():
+        return Specials.NUM
     if len(word) is 1:
-        return SPECIALS[7]
+        return Specials.xy
     word_as_letters = list(word)
 
     #1 - prefix
     if word_as_letters[0].isupper():
         if word_as_letters[1].isupper():
-            return SPECIALS[2]
+            return Specials.XY
         else:
-            return SPECIALS[1]
+            return Specials.Xy
 
     #2 - postfix
     elif str(word_as_letters[-3:-1]) == "ing":
-        return SPECIALS[3]
+        return Specials.Xing
     elif str(word_as_letters[-2:-1]) == "ed":
-        return SPECIALS[4]
+        return Specials.Xed
     elif str(word_as_letters[-2:-1]) == "'s":
-        return  SPECIALS[5]
+        return  Specials.X_s
     elif word_as_letters[-1] == 's':
-        return SPECIALS[6]
+        return Specials.Xs
     elif word_as_letters[0].islower() and word_as_letters[1].islower():
-        return SPECIALS[7]
+        return Specials.xy
     return None
 
 
@@ -151,22 +172,30 @@ def create_estimates(file_name, q_file, e_file):
 
     for i in range(len(spaces_split_data)):
         couple1 = spaces_split_data[i]
-        word, t1 = couple1.split('/')
+        word, t1 = split_to_word_tag(couple1)
         add_count_to_dict(count_dict_e, (word, t1))
         add_count_to_dict(count_dict_q, t1)
         if i+1 < len(spaces_split_data):
             couple2 = spaces_split_data[i+1]
-            t = couple2.split('/')[1]
+            w, t = split_to_word_tag(couple2)
             t2 = (t1, t)
             add_count_to_dict(count_dict_q_2, t2)
             if i+2 < len(spaces_split_data):
                 couple3 = spaces_split_data[i+2]
-                t3 = couple3.split('/')[1]
+                w, t3 = split_to_word_tag(couple3)
                 t3 = (t2[0], t2[1], t3)
                 add_count_to_dict(count_dict_q_3, t3)
+                print t3, i
 
     write_estimates_to_file([count_dict_q, count_dict_q_2, count_dict_q_3], q_file)
     write_estimates_to_file([count_dict_e], e_file)
+
+
+def split_to_word_tag(word):
+    index = word.rfind('/')
+    tag = word[index+1:]
+    word = word[:index]
+    return word, tag
 
 
 def write_estimates_to_file(dictionaries, filename):
@@ -179,21 +208,8 @@ def write_estimates_to_file(dictionaries, filename):
     fd.close()
 
 
-
 if __name__ == '__main__':
-    s = " ".join(["", "", "dsjk"])
-    print s
-
-
-    if len(sys.argv) != 4:
-        exit()
-    file_name = sys.argv[1]
-    q_mle = sys.argv[2]
-    e_mle = sys.argv[3]
-
-    create_estimates(file_name,q_mle, e_mle)
-    q_dict, e_dict, w,t = create_dictionaries(q_mle, e_mle)
-    print ' '
-
-
-
+    if len(sys.argv) is not 4:
+        exit(-1)
+    input_file, qmle, emle = sys.argv[1:]
+    create_estimates(input_file, qmle, emle)

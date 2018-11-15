@@ -29,7 +29,7 @@ def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict)
                 max_yi = temp_e+temp_q
                 arg_max = yi
     else:
-        t = mle.get_speciel_signature(word)
+        t = mle.get_special_signature(word)
         if t is None:
             return "UNK"
         # possible_tags_keys = [unk for unk in unk_dict.keys() if t in unk]
@@ -40,7 +40,7 @@ def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict)
         arg_max = max_key[-1]
     return arg_max
 
-def tag_sencence(in_file,out_file,q_dict,e_dict,w_dict,t_dict,unk_dict):
+def tag_file(in_file, out_file, q_dict, e_dict, w_dict, t_dict, unk_dict):
     fd = open(in_file)
     data = fd.read()
     fd.close()
@@ -48,27 +48,22 @@ def tag_sencence(in_file,out_file,q_dict,e_dict,w_dict,t_dict,unk_dict):
     fd = open(out_file,'w')
     for l in data.splitlines():
         spaces_split_data += l.split(' ')
-        p_p_t = S_TAGS[0]
-        p_t = S_TAGS[0]
-        for word in spaces_split_data:
-            if word == "and":
-                print ' '
-            t = tag_word(p_p_t,p_t,word,q_dict,e_dict,w_dict,t_dict,unk_dict)
-            p_p_t = p_t
-            p_t = t
-            fd.write(str(word+'/'+t+' '))
-            print str(word+'/'+t+' ')
+    p_p_t = S_TAGS[0]
+    p_t = S_TAGS[0]
+    for word in spaces_split_data:
+        if word == "and":
+            print ' '
+        t = tag_word(p_p_t,p_t,word,q_dict,e_dict,w_dict,t_dict,unk_dict)
+        p_p_t = p_t
+        p_t = t
+        fd.write(str(word+'/'+t+' '))
+        print str(word+'/'+t+' ')
 
 
 if __name__ == '__main__':
-
-    in_file = 'hmm-test'
-    q_mle = 'q.mle'
-    e_mle = 'e.mle'
-    out_file = 'out.txt'
-    extra_file = 'extra.txt'
-
-    mle.create_estimates('hmm.txt', q_mle, e_mle)
-    q_dict, e_dict, words_dict,tags_dict, unk_dict = mle.create_dictionaries(q_mle, e_mle)
-    tag_sencence(in_file,out_file,q_dict,e_dict,words_dict,tags_dict,unk_dict)
-    print "Done"
+    if len(sys.argv) is not 6:
+        exit(-1)
+    input, qmle, emle, output, extra = sys.argv[1:]
+    q_dict, e_dict, words_dict,tags_dict, unk_dict = mle.create_dictionaries(qmle, emle)
+    tag_file(input, output, q_dict, e_dict, words_dict, tags_dict, unk_dict)
+    print "Done!!!"
