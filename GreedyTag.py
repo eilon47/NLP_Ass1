@@ -40,9 +40,6 @@ def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict)
     try:
         count = w_dict[word]
         for yi in t_dict.keys():
-            # add log
-            if yi == "JJ":
-                pass
             temp_q = mle.get_q(q_dict,prev_prev_tag,prev_tag,yi,num_of_words)
             temp_e = mle.get_e(word,yi,q_dict,e_dict,unk_dict)
             if temp_e*temp_q > max_yi:

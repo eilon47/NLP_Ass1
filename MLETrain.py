@@ -1,10 +1,7 @@
 from __future__ import division
-
+from collections import Counter
 import os
 import sys
-
-
-l1, l2, l3 = 1.0/2, 1.0/3, 1.0/6
 
 
 class Specials:
@@ -79,24 +76,25 @@ def check_dict(tag1,tag2,tag3,q_dict):
 
 
 def get_q(q_dict,tag1, tag2, tag3, num_words):
-    global l1, l2, l3
-    c = float(q_dict[tag3])
+    l1, l2, l3 = 1.0 / 2, 1.0 / 3, 1.0 / 6
     b, ab, bc, abc = [1.0] * 4
-    if tag1 == "START":
-        if tag1 == "START" and tag2 == "START":
-            return l3*(c/num_words)
-        bc = float(q_dict[" ".join([tag2, tag3]).strip()])
-        b = float(q_dict[tag2])
-        return l2*(bc/b) + l3* (c/num_words)
     abc_t, ab_t, bc_t, b_t = get_combinations(tag1, tag2, tag3)
     if abc_t in q_dict.keys():
         abc = float(q_dict[abc_t])
+    else:
+        l1 = 0
     if ab_t in q_dict.keys():
         ab = float(q_dict[ab_t])
+    else:
+        l1 = 0
     if bc_t in q_dict.keys():
         bc = float(q_dict[bc_t])
+    else:
+        l2 = 0
     if b_t in q_dict.keys():
         b = float(q_dict[b_t])
+    else:
+        l2 = 0
     q = l1*(abc/ab) + l2*(bc/b) + l3* (c/num_words)
     return q
 
@@ -121,13 +119,6 @@ def get_e(word, tag, q_dict, e_dict,unk_dict):
         count_word_tag = e_dict[key]
     count_tag = q_dict[tag]
     return count_word_tag / count_tag
-
-
-def add_count_to_dict(count_dict, key):
-    if key not in count_dict.keys():
-        count_dict[key] = 1
-    else:
-        count_dict[key] += 1
 
 
 def get_special_signature(word):
@@ -172,33 +163,26 @@ def check_if_numeric(word):
 
 def create_estimates(file_name, q_file, e_file):
     fd = open(file_name, 'r')
-    data = fd.read()
+    data = fd.readlines()
     fd.close()
-    count_dict_q = dict()
-    count_dict_q_2 = dict()
-    count_dict_q_3 = dict()
-    count_dict_e = dict()
-    spaces_split_data = []
-    for l in data.splitlines():
-        spaces_split_data += l.split(' ')
-
-    for i in range(len(spaces_split_data)):
-        couple1 = spaces_split_data[i]
-        word, t1 = split_to_word_tag(couple1)
-        add_count_to_dict(count_dict_e, (word, t1))
-        add_count_to_dict(count_dict_q, t1)
-        if i+1 < len(spaces_split_data):
-            couple2 = spaces_split_data[i+1]
-            w, t = split_to_word_tag(couple2)
-            t2 = (t1, t)
-            add_count_to_dict(count_dict_q_2, t2)
-            if i+2 < len(spaces_split_data):
-                couple3 = spaces_split_data[i+2]
-                w, t3 = split_to_word_tag(couple3)
-                t3 = (t2[0], t2[1], t3)
-                add_count_to_dict(count_dict_q_3, t3)
-                print t3, i
-
+    count_dict_q = Counter()
+    count_dict_q_2 = Counter()
+    count_dict_q_3 = Counter()
+    count_dict_e = Counter()
+    j = 0
+    for line in data:
+        words = line.strip().split(" ")
+        pt, ppt = "TEMP", "TEMP"
+        for word in words:
+            word, t1 = split_to_word_tag(word)
+            count_dict_e[word+" "+ t1] += 1
+            count_dict_q[t1] += 1
+            count_dict_q_2[t1+" "+pt] += 1
+            count_dict_q_3[t1+" "+ pt +" "+ ppt] += 1
+            ppt = pt
+            pt = t1
+        print j
+        j += 1
     write_estimates_to_file([count_dict_q, count_dict_q_2, count_dict_q_3], q_file)
     write_estimates_to_file([count_dict_e], e_file)
 
@@ -214,9 +198,8 @@ def write_estimates_to_file(dictionaries, filename):
     fd = open(filename, 'w')
     for dictionary in dictionaries:
         for k, v in dictionary.items():
-            if type(k) is tuple:
-                k = " ".join(k)
             fd.write("{}\t{}\n".format(k, str(v)))
+            print "{}\t{}\n".format(k, str(v))
     fd.close()
 
 
