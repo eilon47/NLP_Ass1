@@ -5,12 +5,16 @@ import numpy as np
 
 S_TAGS = ['START']
 tags = ['a','b','c']
-
+number_of_words = 0
 def get_num_of_words(w_dict):
-    num_of_words = 0
-    for word in w_dict:
-        num_of_words += int(w_dict[word])
-    return num_of_words
+    global number_of_words
+    if number_of_words is 0:
+        for word in w_dict:
+            number_of_words += int(w_dict[word])
+    return number_of_words
+
+
+
 
 def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict):
     max_yi = 0
@@ -23,8 +27,8 @@ def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict)
                 continue
 
             # add log
-            temp_q = mle.getQ(q_dict,prev_prev_tag,prev_tag,yi,num_of_words)
-            temp_e = mle.getE(word,yi,q_dict,e_dict,unk_dict)
+            temp_q = mle.get_q(q_dict,prev_prev_tag,prev_tag,yi,num_of_words)
+            temp_e = mle.get_e(word,yi,q_dict,e_dict,unk_dict)
             if(temp_e+temp_q) > max_yi:
                 max_yi = temp_e+temp_q
                 arg_max = yi
@@ -51,8 +55,6 @@ def tag_file(in_file, out_file, q_dict, e_dict, w_dict, t_dict, unk_dict):
     p_p_t = S_TAGS[0]
     p_t = S_TAGS[0]
     for word in spaces_split_data:
-        if word == "and":
-            print ' '
         t = tag_word(p_p_t,p_t,word,q_dict,e_dict,w_dict,t_dict,unk_dict)
         p_p_t = p_t
         p_t = t
@@ -64,6 +66,8 @@ if __name__ == '__main__':
     if len(sys.argv) is not 6:
         exit(-1)
     input, qmle, emle, output, extra = sys.argv[1:]
+    print "gets dictionaries"
     q_dict, e_dict, words_dict,tags_dict, unk_dict = mle.create_dictionaries(qmle, emle)
+    print "tag the input file"
     tag_file(input, output, q_dict, e_dict, words_dict, tags_dict, unk_dict)
     print "Done!!!"

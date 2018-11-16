@@ -47,8 +47,6 @@ def create_dictionaries(q_mle, e_mle):
         key, counter = line.split('\t')
         # gets w,t
         word,tag = key.split(' ')
-        if word == "and":
-            print ' '
         # if counter.strip().isnumeric():
         e_dict[key] = int(counter.strip())
 
@@ -131,7 +129,7 @@ def add_count_to_dict(count_dict, key):
 
 
 def get_special_signature(word):
-    if word.strip().isnumeric():
+    if check_if_numeric(word):
         return Specials.NUM
     if len(word) is 1:
         return Specials.xy
@@ -156,6 +154,18 @@ def get_special_signature(word):
     elif word_as_letters[0].islower() and word_as_letters[1].islower():
         return Specials.xy
     return None
+
+
+
+def check_if_numeric(word):
+    temp = word.strip().replace(",","").replace(".","").replace("-","")
+    try:
+        temp = float(temp)
+        return True
+    except ValueError:
+        return False
+
+
 
 
 def create_estimates(file_name, q_file, e_file):
