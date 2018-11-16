@@ -70,6 +70,28 @@ def tag_file(in_file, out_file, q_dict, e_dict, w_dict, t_dict, unk_dict):
         print result
 
 
+def comp(train_file, ans_file):
+    train_fd = open(train_file,'r')
+    ans_fd = open(ans_file,'r')
+    t = train_fd.read()
+    a = ans_fd.read()
+    train_fd.close()
+    ans_fd.close()
+    counter = 0.0
+    spaces_split_train = []
+    spaces_split_ans = []
+    for l in t.splitlines():
+        spaces_split_train += l.split(' ')
+    for l in a.splitlines():
+        spaces_split_ans += l.split(' ')
+    if len(spaces_split_train) is not len(spaces_split_ans):
+        return 0
+    for i in range(len(spaces_split_train)):
+        if spaces_split_train[i] is spaces_split_ans[i]:
+            counter += 1
+    return counter/len(spaces_split_train)
+
+
 if __name__ == '__main__':
     if len(sys.argv) is not 6:
         exit(-1)
