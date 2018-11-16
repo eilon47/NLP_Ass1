@@ -438,6 +438,7 @@ through IN	547
 addresses NNS	3
 near-luxury JJ	1
 r SYM	1
+multifamily RB	1
 Indosuez NNP	1
 31-year-old JJ	2
 Stalin NNP	1
@@ -607,6 +608,7 @@ Generale NNP	11
 Highway NN	1
 indelible JJ	2
 Lincoln-Mercury-Merkur NNP	1
+Patsy NNP	1
 cast-iron JJ	1
 memory NN	32
 ties VBZ	2
@@ -655,7 +657,6 @@ Minimum NNP	2
 Blue-chip JJ	2
 earlier-announced JJ	1
 51-day JJ	4
-58.50 CD	2
 horticulturist NN	1
 inappropriately RB	2
 N.V NNP	5
@@ -704,7 +705,7 @@ Authorities NNP	2
 Authorities NNS	3
 Usinor NNP	2
 calculated VBN	23
-talk-show NN	2
+213 CD	2
 warning NN	20
 periodically RB	2
 Rafi NNP	1
@@ -784,7 +785,7 @@ Town NNP	8
 severance NN	6
 coincided VBD	1
 corresponded VBD	1
-reefs NNS	1
+Paper NNP	30
 cheaper JJR	23
 non-flight JJ	1
 Said NNP	6
@@ -822,7 +823,7 @@ funny JJ	10
 Midwest JJ	1
 brimstone NN	1
 Enormous JJ	1
-abating VBG	1
+happier JJR	1
 Octel NN	1
 bevy NN	1
 direct JJ	67
@@ -900,7 +901,7 @@ Schramm NNP	2
 continental JJ	3
 Mary NNP	20
 NATIONAL NNP	13
-suited VBN	3
+cumin NN	2
 Aberdeen NNP	2
 earn VBP	5
 grief NN	1
@@ -1142,6 +1143,7 @@ linkages NNS	3
 stomach-churning JJ	1
 faltered VBD	4
 hawking VBG	1
+Vortex NN	1
 6,727,042 CD	1
 marketization NN	1
 sensibility NN	2
@@ -1296,7 +1298,6 @@ weaken VBP	1
 30/32 CD	1
 Welch NNP	7
 spectacular JJ	8
-seismographic JJ	1
 strongest JJS	15
 Inc NNP	233
 trails VBZ	2
@@ -1348,7 +1349,7 @@ image-building JJ	1
 second RB	4
 greenhouse-produced JJ	1
 2662.91 CD	5
-gyrating VBG	2
+chain-smoking NN	1
 875 CD	1
 Janlori NNP	1
 Ellis NNP	8
@@ -1418,7 +1419,7 @@ share NN	1421
 Avmark NNP	1
 crass JJ	1
 14-ship JJ	1
-rim VBP	1
+Finnair NNP	6
 Huard NNP	1
 await VBP	4
 Noxell NNP	8
@@ -1504,20 +1505,19 @@ Detroit-based JJ	1
 ya PRP	1
 United JJ	1
 surf NN	1
-Diego JJ	1
 skis NNS	2
 smarting VBG	1
 done RB	1
 overzealousness NN	1
 impressed VBD	1
 debating VBG	2
-clothier NN	1
 Baltic JJ	2
 decimal NN	2
 Indianapolis-based JJ	1
 exerpts NNS	1
 Poverty NNP	1
 dentist NN	2
+mixing VBG	1
 compliance NN	17
 Observer NNP	1
 sliver-like JJ	1
@@ -1535,7 +1535,7 @@ posh JJ	1
 Systemwide NNP	1
 in-house RB	1
 Southwestern NNP	9
-any DT	721
+user NN	21
 feasts NNS	1
 Dixie NNP	1
 470,000 CD	1
@@ -1578,7 +1578,6 @@ widely RB	73
 tremendous JJ	17
 Bapilly NNP	1
 profile VB	1
-Device NN	1
 Odd NNP	1
 Us PRP	1
 wider-than-expected JJ	2
@@ -1620,7 +1619,6 @@ Merola NNP	1
 re-entering VBG	1
 long-haul JJ	2
 abandoned JJ	1
-Westwood NNP	4
 links NNS	13
 salutary JJ	1
 279.39 CD	1
@@ -2086,6 +2084,7 @@ suppository NN	1
 knife NN	1
 redraw VB	2
 pot NN	5
+viaducts NNS	1
 LATE JJ	7
 laundering NN	5
 displaced VBN	3
@@ -2125,7 +2124,7 @@ Digital NNP	94
 sandy JJ	1
 Less NNP	1
 faulted VBN	1
-To IN	26
+great RB	2
 uneasiness NN	1
 Rifenburgh NNP	6
 W.T. NNP	1
@@ -2164,7 +2163,7 @@ squeezed VBN	12
 callipygous NN	1
 finger-pointing JJ	1
 43.1 CD	2
-skipping VBG	2
+bankruptcies NNS	5
 proprietary NN	1
 back RP	84
 173.5 CD	1
@@ -2378,6 +2377,7 @@ Spago NNP	1
 support VBP	8
 injecting VBG	2
 Richardson NNP	5
+transportation NN	70
 Nouveaux NNP	1
 331,400 CD	1
 misguided JJ	2
@@ -2439,7 +2439,7 @@ school-lunch NN	1
 resilient JJ	4
 added VBN	48
 Symbolist NNP	1
-backgrounds NNS	4
+added VBD	261
 Hines NNP	5
 bulletin NN	2
 files NNS	7
@@ -2485,6 +2485,7 @@ Glen NNP	3
 pro- JJ	1
 envisioned VBN	3
 Sotela NNP	1
+Gollich NNP	1
 view VB	10
 Sakowitz NNP	1
 order-imbalance NN	1
@@ -2524,7 +2525,7 @@ Wigglesworth NNP	1
 divest VB	2
 bind NN	4
 local-exchange JJ	1
-encouraging VBG	9
+titled VBN	6
 hyper JJ	1
 457 CD	1
 Gen. NNP	35
@@ -2581,6 +2582,7 @@ shining VBG	2
 concurred VBD	2
 biodegradable JJ	1
 INC. NNP	25
+padding NN	1
 Ariz. NNP	23
 low-budget JJ	2
 summers NNS	2
@@ -2664,8 +2666,7 @@ girder NN	1
 Mohamad NNP	1
 1.53 CD	4
 monomer NN	1
-takeover-threat NN	1
-bust NN	4
+signing VBG	9
 arbitrator NN	8
 wood-products NNS	3
 147,121 CD	1
@@ -2676,8 +2677,7 @@ conducting NN	1
 rally VB	10
 Hot NNP	1
 bureaucratic JJ	10
-remodeling NN	2
-Tupperware NNP	1
+Both PDT	1
 gathering NN	9
 globalists NNS	2
 127 CD	3
@@ -2753,14 +2753,13 @@ authorized VBN	10
 might MD	334
 authorized VBD	13
 Polyvinyl NN	1
-Lion NNP	9
+whirlwind NN	1
 subordinates NNS	5
 preferably RB	2
 ferroelectric JJ	5
 family-owned JJ	2
 fraternities NNS	1
 Paracchini NNP	1
-114.7 CD	1
 tankers NNS	4
 palatial JJ	1
 Szuros NNP	1
@@ -2971,8 +2970,6 @@ Pertschuk NNP	2
 cushioned VBN	1
 coherently RB	1
 Nimitz NNP	8
-Perritt NNP	3
-fooled VBN	1
 laugh VB	2
 Report NNP	41
 Rama NNP	1
@@ -3273,6 +3270,7 @@ Insiders NNS	2
 delivered VBD	3
 exclaims VBZ	2
 relish VB	1
+Datatronic NNP	3
 F NNP	1
 phone NN	68
 appliance-controls NN	1
@@ -3416,6 +3414,7 @@ vanishes VBZ	1
 2210 CD	1
 plea VB	1
 Days NNPS	1
+Coudert NNP	1
 Rwanda NNP	1
 discard VB	3
 modeled VBN	1
@@ -3449,7 +3448,6 @@ Travel NN	2
 667 CD	1
 similar JJ	145
 December NNP	106
-Warburgs NNPS	1
 recovered VBD	19
 7.375 CD	1
 Lighting NNP	5
@@ -3582,7 +3580,6 @@ Shvartzer NNP	1
 Cayne NNP	3
 Orwellian NNP	1
 115 CD	10
-50.8 CD	1
 proven JJ	4
 Sam NNP	27
 harassing VBG	1
@@ -3635,7 +3632,7 @@ commutes NNS	2
 McCollum NNP	1
 Jake NNP	4
 ours PRP	2
-lugs NNS	1
+Sis NNP	1
 filming VBG	1
 41.76 CD	2
 Siegal NNP	1
@@ -3698,7 +3695,6 @@ Lehn NNP	1
 Against IN	5
 floral JJ	1
 blames VBZ	9
-viaducts NNS	1
 unsettled JJ	8
 get-out-the-vote JJ	1
 Mideast NNP	3
@@ -3724,6 +3720,7 @@ severity NN	5
 help VB	210
 synchronous JJ	1
 dictating NN	1
+58.50 CD	2
 92%-owned JJ	1
 Alusuisse NNP	3
 Pencils NNS	1
@@ -3825,7 +3822,7 @@ Gases NNS	1
 artworks NNS	1
 tab NN	5
 Janney NNP	1
-all RB	46
+modern JJ	36
 shunned VBD	2
 stepmother NN	1
 delicately RB	1
@@ -4117,7 +4114,7 @@ disputed VBD	4
 Kaifu NNP	2
 old-guard JJ	1
 PLANS VBZ	1
-3.865 CD	1
+four-wheel-drive NN	2
 work-force NN	1
 Bonn NNP	10
 Twice RB	1
@@ -4155,7 +4152,7 @@ coward NN	1
 fatter JJR	1
 pianos NNS	1
 Pieter NNP	1
-seeming JJ	1
+talk-show NN	2
 554 CD	1
 specialty-chemicals NNS	2
 retail JJ	97
@@ -4415,6 +4412,7 @@ clouded JJ	2
 subscribing VBG	1
 additives NNS	2
 Midmorning NN	1
+odd-looking JJ	1
 perks NNS	3
 Takushoku NNP	1
 archive NN	1
@@ -4519,7 +4517,7 @@ reselling VBG	3
 warring VBG	1
 8,385 CD	1
 luster NN	1
-Federico NNP	1
+suffer VBP	7
 immune JJ	16
 beat NN	2
 48-year-old JJ	4
@@ -4568,6 +4566,8 @@ Wheaties-box JJ	1
 727 NNP	2
 amusements NNS	1
 Aldrich NNP	1
+Hahnemann NNP	1
+Eiszner NNP	1
 briskly RB	1
 90.5 CD	1
 house VB	3
@@ -4746,7 +4746,7 @@ call VB	49
 telephone NN	95
 blue-collar JJ	5
 piled VBD	2
-Paper NNP	30
+Kyong NNP	1
 U.S.A. NNP	7
 1989B NNP	2
 piled VBN	1
@@ -4821,7 +4821,7 @@ hick NN	1
 remodeling VBG	5
 Mulvoy NNP	1
 discontent NN	1
-Kent NNP	3
+arrears NNS	2
 Britannia NNP	1
 15 VBN	1
 law NN	298
@@ -4874,7 +4874,7 @@ Rosalco NNP	1
 Jenks NNP	2
 bailiff NN	1
 highways NNS	12
-unfounded JJ	2
+meat NN	10
 speaking VBG	6
 assiduously RB	1
 Panet-Raymond NNP	2
@@ -4904,6 +4904,7 @@ planted VBD	2
 free-standing JJ	2
 acknowledged JJ	1
 Weapons NNP	1
+Sit NNP	4
 climbing VBG	10
 Diagnostics NNPS	1
 Immune NNP	2
@@ -5161,7 +5162,7 @@ AUTO NNP	1
 transnational JJ	1
 Witter NNP	28
 quantified VBN	1
-Earl NNP	5
+metal-forming JJ	2
 6.75 CD	2
 cooling NN	1
 copied VBN	2
@@ -5187,6 +5188,7 @@ Betsy NNP	4
 slackening VBG	1
 overrule VB	1
 bartered VBN	1
+VisionQuest NNP	1
 Hopefully RB	1
 Taco NNP	4
 F.A.O. NNP	1
@@ -5266,7 +5268,7 @@ Australian JJ	50
 11.38 CD	2
 10-year-old JJ	2
 savviest JJS	2
-KAISER NNP	1
+assists VBZ	1
 exclusively RB	9
 sworn VBN	5
 Slovakia NNP	1
@@ -5306,7 +5308,7 @@ shared VBN	12
 36.4 CD	1
 Thomas NNP	70
 undervalued JJ	1
-shared VBD	4
+cope VB	14
 line-up NN	2
 tremulous JJ	1
 detriment NN	1
@@ -5868,7 +5870,6 @@ delight VB	1
 tensions NNS	5
 63.25 CD	1
 better-safe-than JJ	1
-Susumu NNP	1
 expert JJ	3
 pastdue JJ	1
 8.483 CD	1
@@ -5877,12 +5878,11 @@ first RB	88
 Daiwa NNP	30
 Fathers NNS	1
 royalties NNS	7
-Lavidge NNP	1
 celebrates VBZ	1
 shopper NN	2
 saving NN	5
 Brief NN	1
-pound-DM JJ	1
+10-point JJ	1
 financier NN	24
 clear-cut JJ	5
 Gallup NNP	3
@@ -5924,7 +5924,6 @@ bankruptcy-court JJ	1
 13D CD	1
 Giovanni NNP	11
 domes NNS	1
-eye-blink NN	1
 Star NN	1
 spout VBP	1
 Organizations NNPS	1
@@ -5941,7 +5940,6 @@ guest NN	6
 oneyear JJ	1
 Paul NNP	118
 24-a-share JJ	1
-affidavit NN	14
 vocalist NN	1
 inaccurate JJ	4
 371.1 CD	1
@@ -6020,7 +6018,7 @@ Crispin NNP	1
 higher-than-expected JJ	1
 novel JJ	3
 astringency NN	1
-bowling VBG	3
+Avenue NNP	24
 surface VB	5
 college-bound JJ	1
 interprets VBZ	1
@@ -6236,7 +6234,7 @@ Loral NNP	13
 Multiflow NNP	1
 rainout NN	1
 Kaiser NNP	11
-bitterness NN	2
+emerge VB	18
 combed VBN	1
 Woo NNP	2
 bulk JJ	8
@@ -6291,7 +6289,7 @@ rocket NN	5
 masculine JJ	1
 maniac NN	1
 counterclaim NN	3
-deficiency NN	6
+thunder NN	2
 postage NN	1
 encompass VB	1
 OECD NNP	3
@@ -7019,6 +7017,7 @@ increased VBN	123
 increased VBD	128
 cruiser NN	1
 interactive JJ	3
+10-day JJ	1
 Report VB	1
 chirpy JJ	1
 boardroom NN	2
@@ -7105,6 +7104,7 @@ studios NNS	6
 tell-tale NN	1
 Waggoner NNP	4
 constitutional JJ	37
+soybeans NNS	6
 7.32 CD	3
 Rules NNS	1
 endlessly RB	1
@@ -7131,6 +7131,7 @@ Mehta NNP	4
 thaw NN	1
 chronicle NN	2
 bureaucracies NNS	3
+centimeters NNS	1
 Sunbird NNP	2
 applies VBZ	6
 After IN	162
@@ -7436,7 +7437,7 @@ ABM NNP	11
 jillions NNS	1
 Productivity NNP	2
 patients NNS	46
-Show NNP	8
+Bashing VBG	1
 273,000 CD	1
 A NN	7
 fourth-grade JJ	1
@@ -7458,6 +7459,7 @@ refiners NNS	6
 spruce VB	1
 bulldozer NN	1
 forfeitures NNS	3
+czar NN	3
 engineered JJ	3
 barrels NNS	46
 rumored VBD	1
@@ -7712,6 +7714,7 @@ participate VB	23
 Raptopoulos NNP	4
 PAPER NNS	2
 PAPER NNP	6
+de-stocking NN	1
 at RP	1
 set VBD	49
 2008 CD	9
@@ -7884,7 +7887,6 @@ host NN	23
 wage-floor JJ	1
 Owens NNP	1
 Delbert NNP	1
-unplanned JJ	2
 snack-food NN	5
 ball NN	8
 whittled VBN	1
@@ -8011,6 +8013,7 @@ gemstone NN	1
 leveled VBN	1
 bank NN	441
 Buell NNP	1
+wrest VB	1
 Somalis NNPS	2
 Liquid NN	1
 leveled VBD	1
@@ -8076,6 +8079,7 @@ Pinter NNP	3
 slapping NN	1
 joint-implants NNS	1
 begins VBZ	32
+toehold NN	1
 coca NN	1
 slope NN	3
 309 CD	4
@@ -8262,7 +8266,6 @@ Oct. NN	1
 Pete NNP	5
 accurate JJ	8
 Almaden NNP	1
-chain-smoking NN	1
 10:33 CD	1
 Makwah NNP	1
 Blunt NNP	3
@@ -8323,7 +8326,6 @@ crushing VBG	4
 minicar NN	2
 proration NN	3
 dismaying JJ	1
-191.4 CD	1
 than IN	1605
 annuity NN	5
 dismantled VBN	3
@@ -8355,7 +8357,7 @@ eons NNS	1
 Galax NNP	1
 Carbon NNP	1
 Lou NNP	1
-loyalty NN	30
+treasures NNS	2
 1.03 CD	9
 nifty JJ	2
 intimidating VBG	1
@@ -8424,7 +8426,6 @@ amounted VBN	1
 Wheels NNP	1
 LAW NNP	1
 Goldin NNP	1
-VisionQuest NNP	1
 Heublein NNP	1
 amounted VBD	14
 Hawker NNP	2
@@ -8496,6 +8497,7 @@ proclaimed JJ	1
 report VBP	10
 streamline VB	9
 retry VB	1
+rim VBP	1
 five-game JJ	1
 Brands NNS	1
 populist JJ	4
@@ -8555,6 +8557,7 @@ counts NNS	10
 delinquencies NNS	1
 symmetrical JJ	1
 515 CD	2
+Jovian JJ	3
 recites VBZ	1
 installing VBG	4
 Wilmer NNP	5
@@ -8742,7 +8745,7 @@ pushed VBN	25
 indicated JJ	9
 frees VBZ	3
 7.227 CD	3
-cumin NN	2
+suited VBN	3
 Chicken NNP	4
 Reaganauts NNS	1
 tragicomic JJ	1
@@ -8787,7 +8790,7 @@ Aftershocks NNS	1
 Chugoku NNP	1
 embarrass VB	3
 2,064 CD	2
-Lung-cancer NN	2
+Anniversary NN	1
 Reuter NNP	6
 manacles NNS	1
 business-class JJ	1
@@ -8980,6 +8983,7 @@ general-practitioner NN	1
 narcotraficantes FW	1
 TWA NNP	2
 1989-90 CD	1
+hand-sized JJ	1
 three-quarters NNS	3
 Schwartz NNP	10
 Hoffman NNP	16
@@ -9184,7 +9188,7 @@ gloats VBZ	1
 Usines NNP	1
 Purchase NNP	2
 peak VB	1
-user NN	21
+any DT	721
 ignite VB	1
 breakfast NN	9
 cellar NN	1
@@ -9208,7 +9212,6 @@ singers NNS	1
 immediate JJ	48
 abdicate VBP	1
 introduction NN	14
-shifts VBZ	1
 torch NN	1
 federal-systems JJ	1
 creates VBZ	15
@@ -9242,7 +9245,7 @@ Due NNP	1
 DPC NNP	18
 lock NN	5
 Hills NNP	16
-modern JJ	36
+heats VBZ	2
 Bike NNP	3
 Graduate-student NN	1
 emulate VB	1
@@ -9572,7 +9575,7 @@ oncogene NN	1
 unprofessional JJ	2
 offensive JJ	7
 war-like JJ	1
-propane NN	6
+small-town JJ	6
 destinations NNS	3
 556.5 CD	1
 Esplanade NNP	1
@@ -9725,7 +9728,6 @@ slow JJ	41
 televangelism NN	1
 hand-held JJ	6
 2676.60 CD	1
-Sit NNP	4
 Hale NNP	3
 400.3 CD	1
 503.1 CD	1
@@ -9905,6 +9907,7 @@ tax-exempts NNS	1
 72.4 CD	1
 privatize VB	3
 prohibit VB	6
+Kompakt NNP	1
 reunion NN	1
 Quebecor NNP	25
 Dracula NNP	1
@@ -10061,7 +10064,7 @@ Progress NN	1
 12,915,000 CD	1
 Torrijos NNP	9
 Brannon NNP	1
-Duesseldorf NNP	2
+Jamie NNP	7
 Depositary JJ	1
 review NN	36
 demise NN	8
@@ -10125,7 +10128,6 @@ motorist NN	3
 explain VBP	3
 140.95 CD	1
 Money NNP	18
-70.5-point JJ	1
 timberland NN	1
 4,930 CD	1
 twiddling VBG	1
@@ -10152,6 +10154,7 @@ G.m.b.H. NNP	3
 attack NN	30
 Erroll NNP	1
 FOREIGN NNP	2
+sympathizers NNS	1
 comparing VBG	3
 giveth VBZ	1
 Macaroni NNP	1
@@ -10371,6 +10374,7 @@ M.B.A. NN	1
 Miyata NNP	1
 romantic JJ	6
 document VB	1
+Conn NNP	14
 side NN	90
 Evidence NN	2
 bounds VBZ	1
@@ -10601,6 +10605,7 @@ reopen VB	14
 replete JJ	2
 14.60 CD	1
 national JJ	193
+airlift NN	1
 reeling VBG	4
 tailored VBN	4
 evaluate VB	13
@@ -10661,6 +10666,7 @@ past NN	87
 transformed VBD	1
 militias NNS	1
 Conferees NNS	1
+order-taking NN	1
 1.11 CD	9
 meal NN	2
 mostly RB	66
@@ -11088,7 +11094,7 @@ answering VBG	1
 Dell NNP	12
 disqualify VB	1
 Bruwer NNP	1
-that WDT	1985
+unknown JJ	6
 assault-weapons JJ	1
 establish VB	35
 underwrite VB	6
@@ -11214,7 +11220,7 @@ THYSELF PRP	1
 pursued VBN	3
 assassinations NNS	7
 private JJ	168
-soybeans NNS	6
+Ground NNP	3
 191.9 CD	1
 classes NNS	23
 rag NN	2
@@ -11357,7 +11363,7 @@ Lordstown NNP	1
 Voyager NNP	5
 ACCOUNT NN	5
 Cattolica NNP	1
-faltering VBG	2
+923,500 CD	1
 bourgeois-bashing JJ	1
 28,000 CD	3
 Fannie NNP	46
@@ -11370,7 +11376,7 @@ cycling VBG	1
 breed NN	7
 Sole NNP	2
 prepaid-tuition JJ	1
-misses VBZ	6
+affidavit NN	14
 0.9 CD	12
 walkouts NNS	2
 dump VBP	1
@@ -11478,7 +11484,7 @@ Karen NNP	8
 Factories NNS	1
 cowboys NNS	2
 Chemical NN	3
-Gabriel NNP	3
+approved VBD	64
 sued VBN	12
 sensitivities NNS	1
 pilots NNS	109
@@ -11514,15 +11520,14 @@ power-generation JJ	1
 recycled JJ	3
 Afterwards RB	1
 poll NN	27
-screaming VBG	4
+break-even JJ	5
 force VBP	5
-anti-abortionist NN	1
+Mexicana NNP	2
 99.691 CD	1
 indict VB	2
 bolstering VBG	2
 Hooker NNP	24
 anti-discrimination JJ	2
-SHOPS NNS	1
 alienate VB	1
 durable JJ	22
 Nonunion NNP	1
@@ -11540,11 +11545,12 @@ capital-gains JJ	16
 inventing VBG	1
 classifications NNS	2
 clinched VBD	1
-Devario NNP	2
+exchange-listed JJ	2
 GR8FLRED CD	1
 52.1 CD	1
 Willam NNP	1
 afternoons NNS	2
+Gilmartin NNP	2
 Sentences NNS	1
 Esteli NNP	1
 violence NN	16
@@ -11587,6 +11593,7 @@ institutional JJ	69
 interleukin-2 NN	1
 CANCER NNP	1
 nursed VBD	2
+eye-blink NN	1
 waste-treatment NN	1
 Wilderness NN	1
 auto-market NN	1
@@ -11611,12 +11618,10 @@ Shelly NNP	3
 civil-rights NNS	2
 Snake NNP	1
 oaks NNS	1
-176.4 CD	1
 ensued VBD	1
 8.81 CD	1
 Linda NNP	11
 opposition NN	77
-rescheduled VBN	1
 pi NN	1
 Ventures NNPS	4
 CalTech NNP	1
@@ -11664,7 +11669,7 @@ unraveled VBN	4
 unclaimed JJ	1
 Phil NNP	9
 Trek NNP	4
-slicing VBG	1
+fly NN	3
 Liquidity NN	2
 resumption NN	1
 Osborn NNP	1
@@ -11760,7 +11765,7 @@ mistaken VBN	1
 Sosuke NNP	1
 Mathews NNP	1
 distance NN	11
-mini-component JJ	3
+collateral NN	19
 BUELL NNP	1
 big-ticket JJ	4
 13.5 CD	9
@@ -12092,6 +12097,7 @@ vague JJ	8
 Echoing VBG	2
 handles VBZ	9
 13.9 CD	1
+libeled VBN	1
 lesser-developed-country JJ	1
 empathize VB	2
 Uninhibited NNP	1
@@ -12236,7 +12242,7 @@ consultation NN	4
 Wrong JJ	2
 Whether IN	8
 Studds NNP	1
-identical JJ	6
+stream-of-consciousness NN	1
 Sioux NNP	4
 Canonie NNP	2
 Scarborough NNP	1
@@ -12410,7 +12416,6 @@ vertically RB	2
 dedicated JJ	1
 endeavor NN	1
 Berrigan NNP	1
-Forecasts NNS	1
 16.7 CD	1
 400 CD	62
 Organic NNP	2
@@ -12889,6 +12894,7 @@ lower-growth JJ	1
 effective NN	2
 shirts NNS	5
 skirmish NN	1
+UNA NNP	1
 starts NNS	7
 hooves NNS	1
 post VB	27
@@ -13114,7 +13120,6 @@ expanse NN	1
 chemical JJ	10
 2/32 CD	7
 Fridays NNP	1
-Kompakt NNP	1
 stock VB	12
 ballplayers NNS	1
 COMPANIES NNS	3
@@ -13193,6 +13198,7 @@ spiritually RB	1
 247.3 CD	1
 Bluff NNP	3
 counties NNS	8
+interdependence NN	1
 Safra NNP	3
 nicknames NNS	3
 departing VBG	2
@@ -13247,6 +13253,7 @@ MAC NNP	1
 629 CD	1
 tears NNS	2
 hauling VBG	1
+loads NNS	4
 inter-city JJ	1
 1.09 CD	3
 Wald NNP	2
@@ -13662,7 +13669,7 @@ hodgepodge NN	1
 retroactive JJ	1
 quarterbacks NNS	1
 2020 CD	2
-slackened VBD	1
+test NN	68
 7.05 CD	1
 Continued VBN	1
 democratic JJ	20
@@ -13699,7 +13706,7 @@ Authority NNP	27
 trading NN	906
 0.01 CD	2
 Caldwell NNP	1
-greatly RB	23
+going VBG	311
 Next IN	2
 13.4 CD	10
 Colombian JJ	13
@@ -13823,7 +13830,7 @@ kiwi NN	1
 Gatos NNP	3
 chess NN	3
 minimill NN	2
-eastward RB	1
+die VB	11
 discount NN	72
 near-market JJ	1
 humanist JJ	1
@@ -13914,7 +13921,7 @@ bulb NN	1
 ascending VBG	3
 Crouched VBN	1
 Louis-Dreyfus NNP	2
-14.933 CD	1
+Universal NNP	9
 185.7 CD	1
 disfavor NN	1
 disaster-recovery NN	1
@@ -14100,6 +14107,7 @@ Bauman NNP	4
 writer NN	26
 Judeo-Christian JJ	1
 2-23 CD	1
+terror NN	2
 swing NN	5
 129.63 CD	1
 reconstructed VBD	1
@@ -14265,7 +14273,6 @@ dose NN	4
 Oshkosh NNP	1
 Filipinos NNPS	4
 sweat VBP	1
-Harty NNP	3
 trowel NN	1
 Consent NNP	1
 Southwest JJ	1
@@ -14485,7 +14492,7 @@ silly JJ	8
 softened VBN	1
 pupils NNS	1
 accountant NN	3
-added VBD	261
+backgrounds NNS	4
 wasteful JJ	3
 neoclassical JJ	1
 no-growth NN	1
@@ -14505,7 +14512,6 @@ years NNS	1174
 staunchest JJS	2
 weighed VBN	2
 Peterborough NNP	1
-centimeters NNS	1
 conceivably RB	1
 120,000 CD	3
 passel NN	1
@@ -14643,7 +14649,6 @@ sociological JJ	1
 464.7 CD	1
 blanket VBP	1
 female NN	4
-Coudert NNP	1
 gaze VBP	1
 midcapitalization NN	1
 brains NNS	6
@@ -14671,7 +14676,7 @@ outperforming VBG	1
 Cuckoo NN	1
 cite VBP	4
 accessory JJ	1
-encourage VBP	6
+Or CC	31
 Food NN	6
 grafted VBN	1
 consumer-product NN	1
@@ -15092,7 +15097,7 @@ car NN	164
 Enforcers NNS	2
 twice JJ	3
 biting JJ	1
-cats NNS	3
+constraints NNS	6
 Newt NNP	2
 0.1 CD	16
 undo VB	6
@@ -15152,7 +15157,6 @@ symbolizes VBZ	1
 more-muscular JJ	1
 Zarett NNP	2
 jackets NNS	6
-Bashing VBG	1
 Was VBD	5
 RECENT JJ	1
 7.6 CD	15
@@ -15288,7 +15292,7 @@ firm JJ	41
 1199.32 CD	1
 atmosphere NN	16
 Iran NNP	16
-nonlethal JJ	1
+Wichita NNP	5
 Eastern NNP	126
 contention NN	5
 richness NN	1
@@ -15672,7 +15676,6 @@ zip VB	1
 Bart NNP	1
 737 CD	2
 Interhome NNP	1
-terror NN	2
 Gotlieb NNP	3
 hogs NNS	3
 contingency NN	5
@@ -15709,7 +15712,6 @@ co-author NN	4
 on-set JJ	1
 Eastate NNP	1
 Argentine JJ	2
-suit RB	1
 Boris NNP	4
 Kasten NNP	1
 142.95 CD	1
@@ -15870,6 +15872,7 @@ Rost NNP	1
 Castillo NNP	2
 Fluor NNP	8
 double-C NN	1
+rubber-necking VBG	1
 keenly RB	1
 parking NN	15
 unorthodox JJ	1
@@ -15978,7 +15981,7 @@ Vehicle NNP	1
 birth NN	9
 ozone-damaging JJ	1
 heavy NN	9
-916.3 CD	1
+reefs NNS	1
 laxatives NNS	1
 M.E. NNP	1
 wishful JJ	1
@@ -16210,6 +16213,7 @@ YORK NNP	1
 EXECUTIVES NNS	1
 486tm NN	1
 COHERENT NNP	1
+thrift-institution NN	1
 Hartnett NNP	2
 studio NN	39
 Broker NNP	5
@@ -16264,6 +16268,7 @@ collective JJ	10
 incomprehensible NN	1
 expensive JJ	54
 8.95 CD	3
+anti-abortionist NN	1
 double-hamburger NN	1
 columnist NN	15
 Sargent NNP	1
@@ -16372,6 +16377,7 @@ safeguard VB	4
 AREA NN	1
 Southeast NNP	5
 Resolution NN	1
+weddings NNS	1
 scrimped VBD	1
 Mahathir NNP	1
 WHO WP	7
@@ -16528,7 +16534,6 @@ pursues VBZ	1
 Income NNP	12
 right-to-privacy JJ	1
 Vote NN	1
-923,500 CD	1
 strode VBD	1
 129.49 CD	2
 SBA NNP	3
@@ -16636,7 +16641,7 @@ Deseret NNP	5
 imposes VBZ	6
 Ho NNP	2
 thicket NN	2
-depleted VBN	2
+Korotich NNP	9
 paint VBP	1
 Syracuse NNP	3
 prerogatives NNS	3
@@ -16662,6 +16667,7 @@ Donna NNP	2
 System NNP	45
 30-day CD	2
 firsthand JJ	1
+Lung-cancer NN	2
 251.2 CD	1
 defendant NN	15
 94,243 CD	1
@@ -16687,7 +16693,6 @@ made-for-TV JJ	1
 Pro-Iranian NNP	1
 thrives VBZ	1
 leveraged-buy-out NN	1
-breezy JJ	1
 Annaud NNP	1
 theatrical JJ	6
 playwright NN	6
@@ -16778,7 +16783,7 @@ Costly JJ	1
 accuse VBP	4
 elswehere NN	1
 Egg NNP	13
-evaders NNS	2
+mass-distribution JJ	1
 Carol NNP	12
 ERC NNP	4
 Pizzo NNP	1
@@ -16999,7 +17004,6 @@ amicable JJ	1
 unfavorable JJ	9
 decided VBN	24
 chairmanship NN	3
-much-heralded JJ	1
 Attention VB	1
 Contemporary NNP	2
 hacker NN	7
@@ -17099,7 +17103,6 @@ intimate JJ	12
 lamp NN	1
 birthday NN	5
 sheet NN	26
-3.83 CD	1
 dictatorships NNS	1
 432.6 CD	1
 Slides NNS	1
@@ -17179,7 +17182,7 @@ Nagy NNP	1
 Shultz NNP	4
 stamp NN	2
 vexed VBN	1
-exceeds VBZ	11
+Otherwise RB	15
 Star JJ	1
 Civic NNP	1
 gendarme NN	1
@@ -17204,6 +17207,7 @@ Mercedes-Benz NNP	5
 foray NN	1
 276.8 CD	3
 Mainly RB	1
+Blot NNP	1
 Prime-1 JJ	1
 Fax NN	1
 selects VBZ	1
@@ -17297,6 +17301,7 @@ crude-steel NN	1
 bees NNS	3
 Bertie NNP	1
 EGA NNP	1
+analog JJ	1
 raid NN	3
 71 CD	22
 VOA NNP	2
@@ -17331,7 +17336,7 @@ health-care NN	30
 Fatalities NNS	1
 Briksa NNP	1
 nine-cent JJ	1
-break-even JJ	5
+screaming VBG	4
 vintage NN	2
 wrists NNS	1
 Means NNS	1
@@ -17343,7 +17348,6 @@ Aerojet NNP	1
 Pictures NNP	14
 hung JJ	1
 Their PRP$	49
-Mexicana NNP	2
 mid-1990s CD	1
 DAT NNP	3
 22,000 CD	2
@@ -17442,7 +17446,6 @@ outfits NNS	1
 stock-picking JJ	2
 franchises NNS	3
 urge VB	10
-333.3 CD	1
 Thermo NNP	5
 employing VBG	4
 realize VB	26
@@ -17554,7 +17557,6 @@ Zimet NNP	1
 9.3 CD	3
 7.3 CD	6
 Buildings NNS	1
-cope VB	14
 invent VBP	1
 10.6 CD	8
 Terrell NNP	1
@@ -17571,7 +17573,7 @@ Tawana NNP	1
 slowing VBG	43
 illustrations NNS	3
 concision NN	1
-charred VBN	1
+114.7 CD	1
 Bataan NNP	2
 consenting VBG	1
 2.74 CD	2
@@ -17645,7 +17647,7 @@ Bauernfeind NNP	1
 copiers NNS	2
 Partners NNS	3
 Marche NNP	1
-Stark NNP	4
+Hertz NNP	4
 gap NN	36
 unregistered JJ	2
 watchword NN	1
@@ -17738,7 +17740,7 @@ intertwining VBG	1
 but IN	8
 Record VB	1
 incentive-maximizing JJ	1
-Sis NNP	1
+lugs NNS	1
 recycled VBN	2
 Davids NNP	1
 Indexes NNS	1
@@ -17978,7 +17980,6 @@ HURRICANE NNP	1
 654 CD	2
 ombudsman NN	2
 DeGol NNP	2
-MEATS NNS	1
 S&Ls NNS	4
 Relief NNP	2
 Ochs NNP	1
@@ -18183,7 +18184,7 @@ airborne-radar NN	1
 mask NN	3
 bargain-hunters NNS	1
 recent JJ	426
-estimate VBP	22
+living VBG	29
 lengths NNS	2
 common NN	12
 tired JJ	5
@@ -18492,7 +18493,6 @@ Goldman NNP	60
 strokes NNS	4
 properly RB	17
 VISUALIZING VBG	1
-Patsy NNP	1
 2018 CD	8
 Epilepsy NNP	3
 Portfolios NNS	1
@@ -18660,6 +18660,7 @@ Shearman NNP	1
 Pamela NNP	1
 Leningrad NNP	2
 ridiculous JJ	10
+MOTORS NNP	1
 undercurrent NN	1
 682.7 CD	1
 9.625 CD	2
@@ -18731,6 +18732,7 @@ attempts VBZ	5
 seven-point JJ	1
 stress-provoking JJ	1
 strained VBN	2
+FARMING NNP	1
 176.1 CD	1
 bottleneck NN	1
 region-by-region JJ	1
@@ -18865,7 +18867,6 @@ Franciscans NNS	1
 Franciscans NNP	1
 400-day JJ	1
 Barrick NNP	1
-2.4375 CD	1
 Therefore RB	3
 Three-month JJ	1
 rollovers NNS	1
@@ -18965,7 +18966,6 @@ manually RB	2
 6.61 CD	1
 hands-on JJ	2
 harsh JJ	6
-Fiorini NNP	4
 confirms VBZ	7
 17,699 CD	1
 Cattle NNS	2
@@ -19019,6 +19019,7 @@ Honduras NNP	4
 Turnover NN	4
 Lybrand NNP	5
 stagnated VBD	1
+Smolensk NNP	1
 two-mile JJ	1
 masse FW	1
 earmark VB	2
@@ -19028,7 +19029,7 @@ Ziff NNP	1
 CMS NNP	9
 O'Kicki NNP	13
 contemplates VBZ	1
-judging VBG	4
+misses VBZ	6
 out NN	3
 boomed VBN	1
 uh UH	2
@@ -19044,7 +19045,7 @@ strategist NN	25
 awesome JJ	3
 Prevention NNP	1
 Omnicorp NNP	1
-approved VBD	64
+Gabriel NNP	3
 compares VBZ	28
 Bulseco NNP	1
 vacancy NN	10
@@ -19057,7 +19058,7 @@ cement NN	8
 permissible JJ	4
 Bogart NNP	15
 disarray NN	10
-exchange-listed JJ	2
+Devario NNP	2
 fourteen CD	1
 transparent JJ	1
 well-publicized JJ	1
@@ -19094,7 +19095,7 @@ Manager NN	1
 anticipate VBP	7
 PRESIDENT NNP	1
 992.7 CD	1
-collateral NN	19
+mini-component JJ	3
 abound VBP	3
 Sanraku NNP	1
 machinists NNS	31
@@ -19171,6 +19172,7 @@ Unions NNS	3
 32.4 CD	1
 plenum NN	1
 Yuba NNP	1
+chimes VBZ	1
 processed JJ	2
 combination NN	31
 airs NNS	1
@@ -19297,6 +19299,7 @@ either RB	45
 thrive VBP	2
 suspect JJ	2
 UH-60A NNP	1
+charred VBN	1
 complex NN	16
 sound/graphics JJ	1
 Shima NNP	1
@@ -19322,7 +19325,6 @@ Bucaramanga NNP	1
 Gilchrist NNP	4
 13.81 CD	1
 Prison NNP	1
-banana-exporting JJ	1
 stave VB	3
 triple-A-rated JJ	2
 Spaulding NNP	1
@@ -19343,7 +19345,7 @@ sacking VBG	2
 Audit NNP	2
 Gene-splicing NN	1
 Jeb NNP	1
-loads NNS	4
+Vranian NNP	1
 21,687 CD	1
 Symphony NNP	1
 27.7 CD	2
@@ -19417,7 +19419,7 @@ avoided VBN	11
 Kwek NNP	2
 unremittingly RB	1
 CHICAGO NNP	3
-going VBG	311
+greatly RB	23
 mining NN	34
 avoided VBD	4
 Row NN	1
@@ -19547,6 +19549,7 @@ regulated JJ	2
 Individual NN	1
 outfielders NNS	1
 dining VBG	1
+lazy JJ	3
 section ,	1
 rotting VBG	1
 ace NN	2
@@ -19576,6 +19579,7 @@ Issues NNS	9
 privileges NNS	6
 renegotiation NN	1
 stadiums NNS	5
+filial JJ	1
 257.5 CD	1
 pre-approved VBN	1
 edition NN	30
@@ -19719,7 +19723,6 @@ tickets NNS	17
 Suominen NNP	3
 price-increase NN	1
 asking NN	2
-Bedfellows NNS	1
 water-borne JJ	1
 Egypt NNP	3
 ingeniously RB	1
@@ -19999,6 +20002,7 @@ linkup NN	1
 wore VBD	8
 brag VB	1
 Alberg NNP	1
+191.4 CD	1
 graceful JJ	2
 Fink NNP	1
 illusion NN	6
@@ -20116,7 +20120,7 @@ fanned VBD	1
 McKay NNP	1
 Bridgers NNP	1
 178.0 CD	1
-Seek VBP	1
+3.865 CD	1
 jokes NNS	6
 4.0775 CD	1
 well-stated JJ	1
@@ -20237,7 +20241,6 @@ parities NNS	1
 FIRST NNP	1
 signal NN	17
 submission NN	2
-MOTORS NNP	1
 Burrillville NNP	1
 idle JJ	11
 criticize VB	2
@@ -20365,7 +20368,7 @@ cornered JJ	2
 treasurer NN	21
 cartridges NNS	1
 as-yet RB	1
-lazy JJ	3
+19.6 CD	6
 Senators NNPS	3
 Julie NNP	1
 ring NN	6
@@ -20416,6 +20419,7 @@ next RB	8
 Pedroli NNP	2
 150,000-barrel-a-day JJ	1
 assisting VBG	5
+handbills NNS	1
 listed JJ	7
 Odds NNS	5
 178.8 CD	1
@@ -20445,7 +20449,6 @@ concerned VBD	1
 124.5 CD	1
 communications-network JJ	1
 concerned VBN	38
-Kyong NNP	1
 equiment NN	1
 one-inch JJ	4
 therapies NNS	1
@@ -20464,7 +20467,6 @@ athlete NN	2
 noncriminal JJ	2
 6.15 CD	3
 Minwax NNP	1
-unfavorably RB	1
 cheered VBD	2
 folded VBN	2
 deliver VB	39
@@ -20504,7 +20506,6 @@ H.H. NNP	6
 Customs NNS	1
 Customs NNP	4
 hamburger NN	3
-heats VBZ	2
 precious JJ	21
 teamed VBD	2
 838.3 CD	1
@@ -20621,7 +20622,7 @@ urea NN	1
 bartering NN	1
 GREAT JJ	1
 Again RB	3
-real NN	1
+Sotheby NNP	52
 tangle VBP	1
 502 CD	1
 squeamish JJ	2
@@ -20680,7 +20681,7 @@ Art NN	6
 medicine NN	10
 21.25-a-share JJ	1
 confinement NN	2
-10-day JJ	1
+prodigal JJ	1
 Credit NN	4
 774,000 CD	1
 photographs NNS	4
@@ -21149,7 +21150,6 @@ commandos NNS	1
 tax-deductible JJ	2
 arousing VBG	1
 32.3 CD	1
-checked VBN	2
 Christianity NNP	1
 Skokie NNP	1
 unconsolidated VBN	2
@@ -21199,7 +21199,6 @@ insures VBZ	4
 becase IN	1
 thinking NN	8
 high-definition NN	1
-Drunk NNP	1
 0.35 CD	1
 Cathcart NNP	6
 third NN	8
@@ -21293,7 +21292,7 @@ Brideshead NNP	1
 carved VBN	2
 1.47 CD	3
 fended VBD	1
-UNA NNP	1
+overreacting VBG	4
 bills NNS	149
 buy JJ	8
 drove VBD	16
@@ -21329,7 +21328,6 @@ conference NN	102
 Rickel NNP	1
 touting VBG	8
 grilled-chicken JJ	1
-Jovian JJ	3
 Laphroaig NNP	1
 mailing VBG	2
 stagflation NN	3
@@ -21535,7 +21533,7 @@ refining VBG	2
 hair-trigger JJ	1
 partially RB	6
 70,765 CD	1
-attends VBZ	2
+dealership NN	10
 pleas NNS	4
 Revenues NNS	3
 57,000 CD	1
@@ -21740,7 +21738,6 @@ occurring VBG	6
 Schiffs NNPS	1
 oddities NNS	1
 Above IN	3
-de-stocking NN	1
 1997-2000 CD	1
 Strickland NNP	1
 reason NN	117
@@ -21761,6 +21758,7 @@ Koffman NNP	1
 ship VBP	1
 Viewers NNS	2
 749 CD	2
+U.S.-Canada NNP	1
 predictor NN	1
 intermediate JJ	4
 Kamel NNP	1
@@ -21822,7 +21820,6 @@ got VBP	2
 John NNP	247
 stereo NN	4
 OFFERED JJ	1
-Bosses NNS	1
 confusing JJ	7
 Sokol NNP	1
 3,632 CD	1
@@ -22046,6 +22043,7 @@ malefactors NNS	1
 tremendously RB	2
 HOLD VB	1
 Psychiatric NNP	1
+freight-transport NN	1
 Novell NNP	4
 Roswell NNP	1
 practices NNS	50
@@ -22064,6 +22062,7 @@ Seimei NNP	1
 Meetings NNS	1
 showing NN	6
 171.9 CD	1
+seismographic JJ	1
 resolutions NNS	6
 497.1 CD	1
 newswire NN	1
@@ -22223,7 +22222,6 @@ emphatically RB	3
 Massage NN	2
 154.05 CD	1
 22,750,000 CD	1
-GRAB NNP	1
 aspired VBD	1
 weeklies NNS	2
 Beech NNP	1
@@ -22322,7 +22320,7 @@ Zach NNP	1
 0.73 CD	1
 teacher NN	6
 200.3 CD	1
-transportation NN	70
+stalked VBN	2
 Leave VB	2
 shortcomings NNS	5
 composition NN	1
@@ -22410,6 +22408,7 @@ spittle NN	1
 22.8 CD	6
 advisable JJ	1
 Closely RB	2
+Tupperware NNP	1
 arb NN	1
 Sieckman NNP	1
 Indonesia NNP	5
@@ -22511,7 +22510,6 @@ symposiums NNS	2
 deep-seated JJ	1
 Brooks NNP	41
 doldrums NN	3
-octaves NNS	1
 rung VBN	1
 jock NN	1
 HUH NNP	1
@@ -22559,12 +22557,11 @@ Casino NN	1
 troubled VBD	2
 Smaller JJR	3
 troubled VBN	17
-Nicastro NNP	2
+adversary NN	7
 reward NN	7
 Sanders NNP	2
 flashbacks NNS	1
 sums NNS	6
-Tito NNP	1
 nasty JJ	9
 groundwork NN	5
 say VBP	525
@@ -22676,6 +22673,7 @@ just-ended JJ	2
 Icahn NNP	31
 racial JJ	20
 return JJ	1
+stocks VBZ	1
 direct-mail JJ	3
 enlightenment NN	1
 MGM/UA NNP	17
@@ -22702,7 +22700,7 @@ S.P. NNP	1
 handicapped NNS	2
 escalation NN	1
 prohibit VBP	3
-Eslinger NNP	1
+all RB	46
 resin NN	4
 catch NN	3
 eyes NNS	23
@@ -22737,6 +22735,7 @@ Omar NNP	2
 Larry NNP	13
 relaxing VBG	4
 Dome NNP	2
+Domestic NNP	1
 Spruell NNP	2
 genuinely RB	1
 refrigerators NNS	6
@@ -22935,7 +22934,6 @@ convention NN	12
 cells NNS	38
 contributing JJ	1
 Interco NNP	2
-sympathizers NNS	1
 stacks NNS	2
 Release NNP	4
 274,475 CD	1
@@ -23090,6 +23088,7 @@ Some RB	3
 Copper NNP	1
 bank-fraud JJ	1
 obediently RB	1
+sows VBZ	1
 bordered VBN	1
 Round NNP	1
 T.V. NNP	1
@@ -23390,7 +23389,7 @@ Herwick NNP	1
 283 CD	1
 Armuelles NNP	2
 memorable JJ	5
-19.6 CD	6
+Chesebrough-Pond NNP	2
 wage-earning JJ	2
 nesting JJ	1
 legitimate JJ	18
@@ -23438,7 +23437,6 @@ languish VB	1
 unsurprising JJ	1
 Gross NNP	5
 computer-assisted JJ	3
-airlift NN	1
 business-like JJ	1
 Skase NNP	15
 Freeport NNP	1
@@ -23479,6 +23477,7 @@ checking-account JJ	1
 PepsiCo NNP	11
 sizzling JJ	1
 334,774 CD	2
+Republicans NNPS	41
 Locally RB	1
 murderous JJ	1
 14.06 CD	3
@@ -23658,7 +23657,6 @@ basically RB	14
 Sindona NNP	4
 audited VBN	1
 riskiest JJS	1
-freight-transport NN	1
 Coalition NNP	1
 Broadcasting NNP	48
 container NN	3
@@ -23836,7 +23834,7 @@ frank JJ	3
 Appleyard NNP	3
 Snack-food NN	1
 spoiled JJ	1
-filial JJ	1
+gyrating VBG	2
 insulation NN	4
 pounding VBG	1
 small JJ	289
@@ -23922,7 +23920,7 @@ prefer VBP	12
 Risk NNP	1
 Luciano NNP	1
 Disabilities NNP	2
-213 CD	2
+rocketed VBD	2
 bonus NN	13
 tolerance NN	5
 then-City JJ	1
@@ -24115,6 +24113,7 @@ Highlander NNP	1
 computer-chip NN	1
 airlifting VBG	1
 Sex NN	3
+537 CD	1
 forgiving VBG	1
 Champs NNP	3
 so-called JJ	65
@@ -24217,7 +24216,7 @@ alluvial JJ	1
 McLean NNP	1
 Caspita-brand JJ	1
 murky JJ	3
-McKinney NNP	5
+Road NNP	2
 papers NNS	28
 questions VBZ	1
 54.75 CD	1
@@ -24329,9 +24328,9 @@ REPORTS NNS	1
 managers NNS	144
 53.75 CD	1
 Mitterrand NNP	7
-Sotheby NNP	52
+real NN	1
 Winners NNS	4
-abashed JJ	1
+Livestock NN	1
 Messiah NNP	6
 anti-miscarriage JJ	4
 Ahmad NNP	4
@@ -24422,6 +24421,7 @@ terms NNS	154
 consumption NN	35
 stepped VBN	5
 Educators NNS	1
+rescheduled VBN	1
 assemble VB	2
 stepped VBD	14
 Lock NNP	1
@@ -24663,6 +24663,7 @@ d SYM	1
 highlighting VBG	1
 pall NN	5
 53%-owned JJ	1
+seeming JJ	1
 exploit VBP	1
 steelmaking NN	1
 provisioning VBG	1
@@ -25048,7 +25049,6 @@ Salt NNP	4
 day-by-day JJ	1
 designer NN	13
 newsman NN	1
-whirlwind NN	1
 government-sponsored JJ	4
 Palmer NNP	5
 culminated VBN	1
@@ -25535,6 +25535,7 @@ Vanguardia NNP	1
 conflicting JJ	2
 dune NN	1
 2.87 CD	4
+Diego JJ	1
 Gutenberghus NNP	1
 big-city NN	1
 French NNS	1
@@ -25751,6 +25752,7 @@ knocked VBN	7
 CRA NNP	3
 neighboring JJ	4
 Rearding VBG	1
+Species NNPS	1
 20-week JJ	1
 needs VBZ	62
 repeal VB	6
@@ -25869,6 +25871,7 @@ traduce VB	1
 suits VBZ	1
 dusted VBD	1
 piano NN	8
+faltering VBG	2
 aggregates NNS	6
 away RP	42
 Demler NNP	7
@@ -26062,7 +26065,6 @@ price VB	7
 recall NN	6
 State NNP	106
 Food NNP	31
-10.09 CD	1
 MATERIALS NNP	1
 Kiki NNP	1
 Blood NNP	1
@@ -26133,7 +26135,7 @@ Buffett NNP	9
 company-operated JJ	4
 Mortimer NNP	2
 784 CD	2
-Republicans NNPS	41
+identical JJ	6
 two-foot JJ	1
 precipitated VBD	3
 Quips VBZ	1
@@ -26327,7 +26329,7 @@ Plane NNP	1
 study NN	89
 vein NN	1
 Ramada NNP	13
-endanger VB	5
+unplanned JJ	2
 slopes VBZ	1
 Arney NNP	1
 2,290 CD	1
@@ -26369,7 +26371,7 @@ crank VB	1
 sagging NN	1
 i.e. FW	2
 saddled VBN	3
-heighten VB	3
+perked VBN	1
 Alpha NNP	2
 Roaring NNP	1
 BORLAND NNP	1
@@ -26404,7 +26406,7 @@ chanteuse NN	1
 1,003,884 CD	1
 basketball-cutback NN	1
 balloons VBZ	1
-Wichita NNP	5
+Seek VBP	1
 Randol NNP	1
 railway NN	4
 2102.2 CD	1
@@ -26445,6 +26447,7 @@ dust NN	8
 home-equity NN	4
 Jeff NNP	11
 540 CD	5
+Atari NNP	1
 well-hit JJ	1
 entry NN	20
 premium-brand JJ	2
@@ -26716,7 +26719,6 @@ squared VBN	1
 Putting VBG	3
 interest-rate-sensitive JJ	1
 squared VBD	1
-Huy NNP	1
 kills VBZ	4
 hikers NNS	4
 involve VB	21
@@ -26971,6 +26973,7 @@ patient-advocacy NN	1
 sharing NN	3
 commits VBZ	2
 sales-tax JJ	1
+70.5-point JJ	1
 auction VB	9
 Fazio NNP	8
 loan-management NN	1
@@ -27030,7 +27033,6 @@ Crazy NNP	2
 asseet NN	1
 Dec. NNP	100
 sensory JJ	2
-Blot NNP	1
 59-store JJ	1
 69-26 CD	2
 Gauloises NNPS	1
@@ -27106,7 +27108,7 @@ dispense VB	1
 Stuart-James NNP	3
 Yesterday NN	84
 Scenario NN	4
-suffer VBP	7
+Federico NNP	1
 Blues NNPS	1
 deodorant NN	1
 Michelangelos NNPS	1
@@ -27124,6 +27126,7 @@ crystal NN	4
 overbreadth NN	1
 year-on-year JJ	5
 Developers NNP	2
+Fiorini NNP	4
 encouraged VBD	5
 745.7 CD	1
 quick-service JJ	1
@@ -27209,7 +27212,7 @@ Caroline NNP	1
 Year NNP	1
 craftsmen NNS	1
 143,000 CD	1
-23 CD	91
+quality JJ	3
 installed VBN	15
 information-processing NN	2
 three-week JJ	1
@@ -27391,7 +27394,6 @@ non-building JJ	1
 Dixon NNP	3
 heavy-tracked JJ	1
 waste-to-energy JJ	2
-U.S.-Canada NNP	1
 probes NNS	5
 wit NN	4
 perverse JJ	4
@@ -27521,7 +27523,7 @@ conveyed VBD	2
 rightly RB	2
 1758.5 CD	1
 hustings NN	1
-rocketed VBD	2
+Future NNP	1
 illuminates VBZ	1
 Bally NNP	22
 neckties NNS	1
@@ -27545,7 +27547,6 @@ arthritis NN	1
 strange JJ	12
 developers NNS	29
 Maj. NNP	1
-mixing VBG	1
 no-brainer NN	1
 Obviously RB	10
 sizzling VBG	1
@@ -27656,11 +27657,10 @@ HEXCEL NNP	1
 con RB	1
 incumbent JJ	6
 allrightniks NNS	1
-whereby WRB	4
 mystery NN	11
 filtering VBG	3
 reignited VBN	2
-unknown JJ	6
+that WDT	1985
 twin-engine JJ	2
 Panasonic NNP	1
 Selkin NNP	3
@@ -28023,7 +28023,7 @@ Z. NNP	3
 minimum-fee JJ	1
 seal NN	4
 Matheson NNP	1
-prodigal JJ	1
+clothier NN	1
 float VBP	1
 castling VBG	1
 dilemma NN	8
@@ -28078,7 +28078,7 @@ Crime NN	3
 Caribbean JJ	2
 knock VB	5
 1.04 CD	11
-test NN	68
+slackened VBD	1
 coddled VBN	1
 CERTIFICATES NNS	8
 flows VBZ	7
@@ -28460,12 +28460,13 @@ pretensions NNS	1
 Vivaldi-at-brunch JJ	1
 returns VBZ	7
 valiant JJ	1
-rubber-necking VBG	1
+remodeling NN	2
 leaves NNS	6
 repressed JJ	1
 3.46 CD	4
 wrongly RB	2
 1975 CD	14
+judging VBG	4
 114 CD	6
 393.4 CD	1
 propped VBN	1
@@ -28940,7 +28941,7 @@ Running NN	1
 Gitanes NNP	3
 Orlando NNP	3
 investment-banking JJ	3
-arrears NNS	2
+Kent NNP	3
 Perimeter NNP	1
 sold-out JJ	1
 F-16 NN	2
@@ -29240,12 +29241,11 @@ multiplexer NN	1
 bottling NN	4
 Leo NNP	5
 Salerno-Sonnenberg NNP	1
-afire RB	1
 1.19 CD	9
 enjoined VBN	4
 326 CD	3
 luxury NN	46
-meat NN	10
+unfounded JJ	2
 pencils NNS	8
 prominence NN	2
 INTERBANK NN	1
@@ -29279,7 +29279,6 @@ multiyear JJ	2
 pistons NNS	1
 asserted VBD	12
 Siena NNP	2
-effete JJ	1
 speculate VBP	2
 vacation NN	6
 Disposition NNP	1
@@ -29355,6 +29354,7 @@ enabled VBD	5
 black-majority JJ	1
 uniforms NNS	2
 corps FW	1
+176.4 CD	1
 walls NNS	25
 MNC NNP	3
 J&L NN	1
@@ -29414,7 +29414,7 @@ Hotel NNP	13
 cream NN	3
 Schroeder NNP	1
 Monica NNP	5
-dealership NN	10
+attends VBZ	2
 color-television NN	1
 realistically RB	1
 COMMERCIAL JJ	12
@@ -29575,7 +29575,7 @@ Peter NNP	88
 2890 CD	1
 filed VBD	81
 Strum NNP	2
-adversary NN	7
+Nicastro NNP	2
 filed VBN	111
 Chronicles NNS	1
 preserves VBZ	2
@@ -29828,6 +29828,7 @@ laughed VBD	3
 damage NN	209
 TRUST NN	2
 Hugo NNP	95
+cooperating VBG	4
 pools NNS	8
 Result NN	1
 single-family JJ	4
@@ -29858,7 +29859,7 @@ layoff NN	1
 building-society JJ	1
 diversification NN	10
 retirees NNS	3
-Finnair NNP	6
+Rolls-Royce NNP	2
 solicit VB	5
 dispel VB	3
 Tibbs NNP	1
@@ -30557,7 +30558,7 @@ Texas JJ	1
 unlawful JJ	6
 Hunter NNP	9
 signing NN	6
-introduced VBN	50
+pen NN	3
 200-ruble JJ	1
 underworld NN	1
 Jaffe NNP	2
@@ -30602,6 +30603,7 @@ thoroughbred NN	1
 Perez NNP	2
 Crane NNP	12
 distinctiveness NN	1
+CANADIAN JJ	1
 Lehmans NNPS	1
 Jewish JJ	13
 businesspeople NN	1
@@ -30748,7 +30750,7 @@ step VBP	1
 11.41 CD	1
 progresses VBZ	3
 discounts NNS	18
-dumps NNS	1
+Drunk NNP	1
 same JJ	301
 Jr. NNP	82
 turnaround NN	21
@@ -30813,7 +30815,6 @@ time-consuming JJ	4
 ignorance NN	6
 God NNP	15
 ATHLONE NNP	1
-preparers NNS	1
 MORE RB	1
 Blanchard NNP	2
 3.50 CD	1
@@ -30879,7 +30880,7 @@ plaintive JJ	1
 queasily RB	1
 introduced VBD	31
 confirm VB	12
-pen NN	3
+introduced VBN	50
 Pherwani NNP	1
 cooling-off JJ	1
 Percussion NNP	1
@@ -30924,7 +30925,7 @@ rate-sensitive JJ	2
 well-lighted JJ	1
 52.7 CD	3
 Growing VBG	2
-metal-forming JJ	2
+Earl NNP	5
 Optic-Electronic NNP	1
 Asset-Backed NNP	2
 Guber-Peters NNP	14
@@ -31045,6 +31046,7 @@ Sheehan NNP	1
 bulk NN	21
 10:40 CD	3
 360-day JJ	3
+MacroChem NNP	2
 oil-price NN	1
 liquid-crystal JJ	2
 Assume VB	3
@@ -31214,7 +31216,7 @@ taxable JJ	22
 thriving JJ	3
 timetable NN	11
 recommendatons NNS	1
-117 CD	3
+bust NN	4
 Josephine NNP	4
 sap VB	1
 qualities NNS	4
@@ -31433,7 +31435,7 @@ sweatshirt NN	1
 gestured VBD	1
 621 CD	1
 upturn NN	3
-die VB	11
+eastward RB	1
 410,000 CD	2
 critics NNS	37
 1989-89 CD	1
@@ -31526,6 +31528,7 @@ offputting JJ	1
 rapist NN	1
 shelters NNS	9
 Variety NNP	1
+KAISER NNP	1
 Petersen NNP	1
 taped VBD	3
 celebrate VB	2
@@ -31632,6 +31635,7 @@ Municipals NNS	6
 forgettable JJ	1
 CHECKOFF NN	1
 traumatized VBN	1
+10.09 CD	1
 752.9 CD	1
 Corp. NNP	1194
 pay NN	48
@@ -31719,6 +31723,7 @@ mid-September NNP	1
 compound JJ	3
 Cascade NNP	4
 surge NN	41
+Bosses NNS	1
 shout VB	1
 viaduct NN	1
 1,920 CD	1
@@ -31750,6 +31755,7 @@ colloquies NNS	1
 300 CD	81
 furiously RB	1
 model VB	1
+shared VBD	4
 Stanwick NNP	1
 impulses NNS	2
 happen VB	42
@@ -31766,6 +31772,7 @@ brightest JJS	4
 Kaddurah-Daouk NNP	2
 cuts VBZ	11
 closest JJS	5
+Westminister NNP	2
 tools NNS	24
 peddled VBN	1
 833.6 CD	2
@@ -31817,7 +31824,7 @@ cutting JJ	1
 Keeping VBG	4
 target NN	56
 extent NN	41
-stocks VBZ	1
+kingpin NN	2
 Carmon NNP	3
 long-term-oriented JJ	1
 well RB	409
@@ -31934,7 +31941,7 @@ rapidly RB	39
 Newman NNP	4
 comptroller NN	20
 Marketers NNPS	1
-Benelux NNP	1
+Asia-Pacific NNP	4
 BLOEDEL NNP	1
 pistol NN	2
 skill NN	4
@@ -31989,7 +31996,6 @@ pershare JJ	1
 careening VBG	2
 hardworking JJ	1
 Wayne NNP	10
-Smurfit NNP	5
 Bonuses NNS	1
 mattered VBN	1
 Thierry NNP	1
@@ -32002,7 +32008,7 @@ pretty JJ	8
 repairing VBG	5
 lifted VBD	5
 founding JJ	2
-Universal NNP	9
+14.933 CD	1
 Second JJ	10
 lifted VBN	12
 Associate JJ	1
@@ -32316,6 +32322,7 @@ rails NNS	1
 shame NN	4
 Berger NNP	2
 cancer-suppressors NNS	1
+fooled VBN	1
 picked VBN	9
 Islanders NNPS	1
 picked VBD	13
@@ -32375,7 +32382,6 @@ moderates NNS	5
 subcompact NN	4
 Beverly NNP	17
 85.7 CD	1
-excursus NN	1
 presence NN	37
 confidently RB	1
 troupes NNS	1
@@ -32414,7 +32420,7 @@ Biographical NNP	1
 leased VBN	9
 leased VBD	2
 clumps NNS	2
-Datuk NNP	1
+Elaborating VBG	2
 guile NN	1
 Bert NNP	5
 149.3 CD	1
@@ -32559,7 +32565,7 @@ unfashionable JJ	1
 equal JJ	45
 headlong RB	1
 Murdoch NNP	7
-Or CC	31
+motivated VBN	5
 lots NNS	24
 double-wing JJ	1
 1.67 CD	3
@@ -32916,7 +32922,6 @@ clinic NN	7
 unions NNS	23
 Lufkin NNP	26
 idled VBN	1
-Anniversary NN	1
 Mac NNP	36
 steadily RB	20
 relations NNS	45
@@ -33144,7 +33149,6 @@ Defense NN	8
 counterproductive JJ	1
 brood NN	1
 IOUs NNS	4
-Westminister NNP	2
 Banks NNP	6
 restated VBD	1
 warranty NN	7
@@ -33295,7 +33299,7 @@ Citicorp NNP	53
 Pope NNP	8
 Locke NNP	1
 Bensonhurst NNP	2
-flush JJ	3
+produced VBN	49
 above IN	140
 cholesterol-lowering JJ	2
 caution VBP	9
@@ -33367,6 +33371,7 @@ killers NNS	3
 crust NN	2
 5th JJ	3
 audited JJ	1
+Arcata NNP	1
 lease-rental JJ	1
 cost-sharing NN	3
 Ozarks NNPS	2
@@ -33526,11 +33531,10 @@ prescribe VB	1
 infected VBD	1
 dissension NN	1
 7.160 CD	1
-Eiszner NNP	1
 BIG NNP	1
 lags VBZ	2
 Dru NNP	1
-prevents VBZ	6
+Show NNP	8
 debt-equity JJ	2
 Private JJ	9
 sandwiches NNS	4
@@ -33624,7 +33628,7 @@ jumping VBG	5
 liberalizing VBG	2
 30.7 CD	2
 ceaselessly RB	2
-slide-packs NNS	1
+Tese NNP	1
 piston NN	2
 beasties NNS	1
 240-a-share JJ	1
@@ -33692,7 +33696,6 @@ town-watching JJ	1
 Dryden NNP	1
 aborted VBN	2
 fellow JJ	16
-perked VBN	1
 stumbling JJ	1
 fellas NNS	1
 249.68 CD	1
@@ -33962,9 +33965,10 @@ license NN	25
 assumes VBZ	13
 141.70 CD	5
 money-laundering NN	2
+suit RB	1
 LDP NNP	19
 Hoover NNP	1
-guerrilla-held JJ	1
+Woodbridge NNP	4
 upper-income NN	1
 themed VBN	1
 McNamara NNP	2
@@ -33975,7 +33979,6 @@ lobby VB	2
 middle-market JJ	1
 suits NNS	38
 cafe NN	2
-coherence NN	1
 86.3 CD	2
 convoluted JJ	1
 adds VBZ	114
@@ -34006,7 +34009,6 @@ portrays VBZ	2
 self-important JJ	1
 Goriot NNP	1
 Subsequent JJ	2
-Brussels NNS	1
 running JJ	3
 maul VB	1
 confiscate VB	1
@@ -34225,6 +34227,7 @@ Monsanto NNP	7
 ramp NN	1
 paneling NN	2
 120.8 CD	1
+Bedfellows NNS	1
 then-current JJ	1
 imperiled VBN	1
 maintain VB	54
@@ -34248,7 +34251,7 @@ Europa NN	1
 Abrams NNP	6
 investigations NNS	17
 38.2 CD	2
-cooperating VBG	4
+hitch NN	2
 Bids NNS	6
 non-trade JJ	2
 exceeded VBN	7
@@ -34382,7 +34385,6 @@ Papetti NNP	2
 remediation NN	1
 Ski NNP	2
 baby-faced JJ	1
-Ground NNP	3
 that VBP	1
 strains NNS	2
 Station NNP	4
@@ -34430,7 +34432,6 @@ ivory NN	5
 Environmental JJ	6
 liars NNS	1
 Semmelman NNP	1
-Gilmartin NNP	2
 geode NN	1
 tartans NNS	1
 high-ranking JJ	2
@@ -34478,6 +34479,7 @@ KLM NNP	2
 8,500,000 CD	1
 Stuecker NNP	1
 utility NN	45
+octaves NNS	1
 feed VB	5
 comparably RB	1
 Lukassen NNP	1
@@ -34592,6 +34594,7 @@ shopping NN	40
 Ma NNP	1
 791 CD	1
 Pepper NNP	3
+117 CD	3
 pitched JJ	1
 relabeling VBG	1
 247.6 CD	1
@@ -34643,7 +34646,7 @@ catalyst NN	10
 fit NN	10
 Cramer NNP	1
 raiser NN	1
-reproduced VBD	1
+plainly RB	5
 value-boosting JJ	1
 population-control JJ	1
 morsels NNS	1
@@ -34668,7 +34671,6 @@ Caribbean NNP	9
 noncontract JJ	3
 HALE NNP	1
 MORTGAGE NNP	21
-viewing NN	1
 hitting VBG	9
 wrought VBD	1
 monologue NN	1
@@ -34700,7 +34702,7 @@ shifted VBD	3
 violent JJ	9
 Add VB	2
 centering VBG	1
-great RB	2
+To IN	26
 shifted VBN	3
 Rolfes NNP	1
 Taiwan NNP	24
@@ -34710,7 +34712,7 @@ In IN	1735
 Literally RB	1
 Tuitions NNS	1
 hardware-maintenance NN	1
-bankruptcies NNS	5
+skipping VBG	2
 roll VB	9
 cheap NN	3
 Slate NNP	2
@@ -34789,7 +34791,7 @@ DIRECTORY NN	1
 assured VBD	2
 divert VBP	1
 either CC	51
-signing VBG	9
+whereby WRB	4
 101.75 CD	1
 10:30 CD	3
 153 CD	3
@@ -35005,7 +35007,7 @@ materials NNS	54
 mismanagement NN	4
 31.2 CD	3
 Hoenlein NNP	1
-10-point JJ	1
+pound-DM JJ	1
 1,979,000 CD	1
 staggering VBG	2
 599.9 CD	1
@@ -35096,7 +35098,6 @@ constituencies NNS	3
 granted JJ	1
 telemarketers NNS	4
 Trustcorp NNP	6
-overreacting VBG	4
 Claus NNP	1
 Sanderson NNP	2
 taxi NN	6
@@ -35124,7 +35125,6 @@ intelligent JJ	3
 1,027 CD	1
 prodding NN	1
 relayed VBD	2
-Datatronic NNP	3
 Borough NNP	1
 modernization NN	5
 Roach NNP	2
@@ -35429,7 +35429,6 @@ eight-hour JJ	1
 319,000 CD	1
 Tiananmen NNP	5
 14.2 CD	5
-Species NNPS	1
 screamed VBD	3
 10.03 CD	2
 examinations NNS	2
@@ -35507,7 +35506,7 @@ diluted JJ	5
 rattled JJ	1
 sledding NN	1
 connotations NNS	1
-organizers NNS	2
+conceded VBD	19
 Confiding VBG	1
 2.007 CD	1
 speedup NN	1
@@ -35614,6 +35613,7 @@ soccer NN	3
 thunderstorm NN	1
 HMS NNP	1
 absorbed VBN	5
+excursus NN	1
 lag NN	4
 absorbed VBD	1
 clouded VBN	1
@@ -35788,7 +35788,7 @@ enforcement NN	19
 Tait NNP	3
 13.79 CD	1
 Par NNP	13
-Avenue NNP	24
+bowling VBG	3
 Headley NNP	1
 food-service NN	2
 Diversified NNP	4
@@ -35828,7 +35828,6 @@ keyed VBN	1
 Litvinchuk NNP	2
 stock-trader NN	1
 totter VB	1
-weddings NNS	1
 87.5 CD	14
 knockout NN	1
 Mallinckrodt NNP	2
@@ -35851,7 +35850,6 @@ plunging VBG	7
 bounce NN	3
 E.F. NNP	1
 envision VBP	1
-655 CD	1
 influence-peddling NN	2
 Committee NN	1
 Trace NNP	3
@@ -35906,7 +35904,7 @@ Roeck NNP	1
 avoidance NN	3
 craving NN	2
 Estonia NNP	1
-immediate-response JJ	1
+shifts VBZ	1
 neutralization NN	2
 Comments NNS	4
 Buccaneers NNS	1
@@ -36085,7 +36083,7 @@ eyeing VBG	2
 crude JJ	21
 Mansfield NNP	1
 Erle NNP	1
-galvanized VBD	3
+Collateralized NNP	1
 wiretap NN	2
 derby NN	1
 survey NN	69
@@ -36288,6 +36286,7 @@ overwhelm VB	2
 all-important JJ	1
 dropped VBD	160
 Volcker NNP	2
+preparers NNS	1
 dropped VBN	25
 Jewish NNP	1
 Goldstar NNP	1
@@ -36409,6 +36408,7 @@ Lehman NNP	82
 incur VB	5
 DC-10 NNP	3
 Petty NNP	1
+much-heralded JJ	1
 99.75 CD	5
 IF IN	4
 52.2 CD	2
@@ -36721,7 +36721,6 @@ consumer-price NN	1
 461,539,056 CD	1
 refreshingly RB	1
 protege NN	2
-padding NN	1
 hi-tech JJ	1
 sole JJ	17
 stones NNS	9
@@ -36730,7 +36729,7 @@ Hawley NNP	2
 non-patent JJ	1
 8.387 CD	1
 J.X. NNP	1
-Wendy NNP	4
+encourage VBP	6
 Linear NNP	5
 arouse VB	2
 Demonstrations NNS	1
@@ -36759,6 +36758,7 @@ Wilsonian JJ	1
 half-share NN	1
 plant-and-equipment JJ	1
 verbatim JJ	1
+FACING VBG	1
 looser JJR	2
 originations NNS	4
 expertise NN	16
@@ -36951,7 +36951,7 @@ Figuring VBG	2
 Elkin NNP	1
 shovel NN	1
 distressed JJ	5
-faith NN	8
+Outside IN	4
 1.41 CD	3
 QUANTUM NNP	2
 Geo NNP	2
@@ -36975,6 +36975,7 @@ flourish VB	2
 desecration NN	4
 Plugging VBG	1
 TIGRs NNP	1
+MEATS NNS	1
 hairy JJ	1
 diabetics NNS	13
 shippers NNS	11
@@ -37067,9 +37068,10 @@ unhusked VBN	1
 practice NN	64
 geosciences NNS	1
 233 CD	1
-emerge VB	18
+bitterness NN	2
 bugs NNS	15
 offer VB	92
+flush JJ	3
 tried JJ	1
 Accounting NN	1
 hedge NN	4
@@ -37177,6 +37179,7 @@ campaigning NN	2
 Election NNP	2
 fundamantalist NN	1
 repurchase VBD	5
+Tito NNP	1
 catapult VB	1
 You PRP	151
 Optical-storage JJ	1
@@ -37218,7 +37221,7 @@ Howe NNP	1
 Spenser NNP	1
 pulse NN	2
 Towing NNP	1
-voting NN	20
+qualifying VBG	1
 vicinity NN	1
 complainant NN	1
 approximate JJ	3
@@ -37296,7 +37299,7 @@ Cavenee NNP	2
 aflatoxin NN	3
 13.71 CD	2
 PRO FW	1
-analog JJ	1
+Brussels NNS	1
 rats NNS	4
 readmit VB	1
 forgetting VBG	2
@@ -37342,7 +37345,7 @@ unload VB	6
 roadblocks NNS	3
 transmit VB	1
 placate VB	2
-Hertz NNP	4
+Stark NNP	4
 12,092 CD	1
 demeaning JJ	1
 customized VBN	2
@@ -37372,7 +37375,7 @@ Vietnamese-backed JJ	2
 sync NN	1
 funneling VBG	2
 bemoaning VBG	1
-thunder NN	2
+deficiency NN	6
 Geiger NNP	3
 Third LS	2
 Corsica NNP	6
@@ -37384,6 +37387,7 @@ mogul NN	1
 Invariably RB	1
 53.9 CD	3
 entrepreneurs NNS	14
+655 CD	1
 restarters NNS	1
 past JJ	300
 Jewboy NN	1
@@ -37623,7 +37627,6 @@ flaring VBG	1
 drill-bit NN	1
 philanthropist NN	1
 Kakumaru NNP	1
-Chesebrough-Pond NNP	2
 Montreal NNP	17
 12.9 CD	7
 Quack UH	1
@@ -37711,6 +37714,7 @@ reflected VBD	36
 Materials NNS	1
 snail NN	3
 coast NN	19
+banana-exporting JJ	1
 Automated VBN	2
 reflected VBN	13
 Strokes NNS	1
@@ -37794,7 +37798,7 @@ till IN	4
 crammed VBD	1
 dilute VB	4
 Early NNP	2
-Yew NNP	1
+Dutch JJ	15
 commencing VBG	1
 treasured JJ	1
 137.5 CD	1
@@ -37809,7 +37813,7 @@ Hanauer NNP	1
 business-related JJ	1
 Victor-brand JJ	1
 imperative NN	1
-handbills NNS	1
+slide-packs NNS	1
 silky JJ	1
 Further JJ	5
 Classic NNP	6
@@ -38238,7 +38242,6 @@ tax-department JJ	1
 statistics NNS	28
 prefecture NN	2
 Valuable NNP	1
-Hahnemann NNP	1
 Claims NNP	1
 qualifies VBZ	1
 sets NNS	19
@@ -38484,6 +38487,7 @@ Izvestia NNP	3
 burning NN	4
 Politics NNS	2
 rogues NNS	1
+Harty NNP	3
 7,440 CD	1
 502,000 CD	1
 capitalist NN	2
@@ -38639,7 +38643,6 @@ Jet NNP	1
 classification NN	1
 dismissed VBN	10
 smooth JJ	9
-448.49 CD	1
 Alabama NNP	6
 pens NNS	1
 1.43 CD	5
@@ -38673,7 +38676,6 @@ heterogeneous JJ	2
 25.875 CD	2
 traduced VBN	1
 emblematic JJ	1
-toehold NN	1
 spanking NN	1
 432.78 CD	1
 littered VBN	1
@@ -38689,7 +38691,6 @@ Yvon NNP	1
 SPECIALIZED JJ	1
 custom-die NN	1
 57.125 CD	1
-CANADIAN JJ	1
 via IN	157
 31,143 CD	1
 counters NNS	3
@@ -38840,7 +38841,6 @@ calculating VBG	5
 regroup VB	1
 549.9 CD	1
 compositional JJ	1
-supreme JJ	1
 proclaim VBP	1
 Shelbyville NNP	1
 142.10 CD	5
@@ -38954,7 +38954,7 @@ aliens NNS	6
 Nachmany NNP	1
 artful JJ	1
 warily RB	1
-quality JJ	3
+23 CD	91
 fourth JJ	111
 announce VBP	1
 cut JJ	1
@@ -38966,6 +38966,7 @@ bank-backed JJ	10
 Lieber NNP	3
 seacoast NN	1
 Solutions NNPS	1
+effete JJ	1
 sprinkled VBD	1
 141.95 CD	1
 newsprints NNS	2
@@ -39255,7 +39256,6 @@ NEW JJ	6
 speeding NN	1
 disputed JJ	2
 eclipse VB	2
-Gollich NNP	1
 fresh JJ	34
 pressured JJ	2
 Lloyd NNP	65
@@ -39387,6 +39387,7 @@ Upgrades NNS	1
 lasts VBZ	6
 delver NN	1
 standing-room-only JJ	1
+toppled VBD	3
 indebtedness NN	2
 ENERGY NN	1
 Jeremiah NNP	1
@@ -39401,7 +39402,7 @@ Contras NNS	2
 TRAVEL NN	1
 Drabinsky NNP	18
 Motorola NNP	20
-constraints NNS	6
+cats NNS	3
 Sunkist NNP	1
 Azem NNP	1
 stale JJ	2
@@ -39416,7 +39417,7 @@ disk-drive NN	7
 Johns NNP	11
 wander VB	2
 54.51 CD	1
-stream-of-consciousness NN	1
+Westwood NNP	4
 Maximum NNP	1
 Ardito NNP	1
 15.75 CD	2
@@ -39715,7 +39716,7 @@ Jarrett NNP	3
 Virtue NNP	2
 financial-aid NN	1
 Global JJ	4
-kingpin NN	2
+guerrilla-held JJ	1
 Irian NNP	3
 30-year CD	1
 7.14 CD	2
@@ -39736,7 +39737,7 @@ skimmers NNS	1
 isolation NN	5
 dangerously RB	2
 continued VBN	46
-Asia-Pacific NNP	4
+Benelux NNP	1
 tax-collection JJ	1
 7.081 CD	1
 rose NN	2
@@ -39957,7 +39958,6 @@ Ohio NNP	57
 pork-barrel JJ	7
 emergency NN	82
 potentates NNS	1
-four-wheel-drive NN	2
 70.2 CD	1
 Imports NNP	1
 Imports NNS	8
@@ -40009,7 +40009,7 @@ alchemists NNS	1
 Singin VBG	1
 reserve VB	1
 931 CD	1
-Elaborating VBG	2
+Datuk NNP	1
 Adviser NNP	2
 Heiwa NNP	1
 13.50 CD	11
@@ -40204,7 +40204,7 @@ Cleave NNP	1
 550,000 CD	6
 unswagged JJ	1
 fattened VBD	1
-plainly RB	5
+reproduced VBD	1
 fattened VBN	1
 Slaughter NNP	2
 voracious JJ	1
@@ -40566,7 +40566,7 @@ relate VB	1
 Nomura NNP	26
 roasted JJ	1
 76 CD	18
-Arcata NNP	1
+Wendy NNP	4
 pupil NN	1
 Compiled VBN	2
 pass-through JJ	2
@@ -40608,7 +40608,7 @@ Drive NNP	1
 Bfree NNP	1
 Farm-machine NN	1
 salon NN	3
-Outside IN	4
+faith NN	8
 10.48 CD	2
 Lemans NNP	1
 frosty JJ	1
@@ -40656,10 +40656,11 @@ beeper JJR	1
 Page NNP	2
 Show VB	1
 35486.38 CD	1
-qualifying VBG	1
+voting NN	20
 insured NN	1
 Completion NNP	1
 subsidization NN	1
+checked VBN	2
 Barnicle NNP	4
 predicting VBG	21
 77,500 CD	1
@@ -40754,7 +40755,7 @@ acres NNS	23
 giggle NN	1
 Pepsi NNS	1
 gulf NN	2
-Dutch JJ	15
+Yew NNP	1
 U-turn NN	1
 Pepsi NNP	5
 novelist NN	4
@@ -40954,7 +40955,6 @@ proved VBD	14
 OS/2 NNP	1
 landed VBN	1
 stars VBZ	3
-motivated VBN	5
 proved VBN	10
 Moral NNP	1
 data-processing NN	4
@@ -41042,7 +41042,7 @@ Reserves NNS	10
 coronary JJ	1
 travails NNS	1
 Hispanics NNS	1
-Conn NNP	14
+Cahoon NNP	1
 contemptible JJ	1
 credit-easing JJ	1
 top-tier JJ	4
@@ -41675,7 +41675,6 @@ lungs NNS	3
 sort VB	7
 Hallingby NNP	2
 Wilm NNP	1
-FACING VBG	1
 Unincorporated NNP	1
 complains VBZ	12
 dedicated VBN	6
@@ -41704,7 +41703,7 @@ Frazer NNP	1
 asleep JJ	1
 Reasons NNS	1
 Clan NNP	1
-hydroelectric JJ	1
+Perritt NNP	3
 GOLDEN NNP	1
 Lansing NNP	1
 McKim NNP	1
@@ -41881,7 +41880,7 @@ Coupon NN	1
 179 CD	11
 Dae NNP	1
 Made NNP	1
-open-market NN	1
+material NN	45
 basketball NN	17
 7.84 CD	1
 hock NN	1
@@ -42111,6 +42110,7 @@ construction-oriented JJ	1
 trappings NNS	3
 Litton NNP	2
 grasp VB	3
+Smurfit NNP	5
 precautions NNS	2
 50.5 CD	1
 capitalize VB	6
@@ -42413,7 +42413,6 @@ comparability NN	1
 admonishing VBG	1
 hairline NN	1
 oil-rig NN	1
-MacroChem NNP	2
 807.6 CD	1
 spurs VBZ	1
 Of IN	59
@@ -42439,11 +42438,12 @@ Housewares NNPS	1
 money-management JJ	2
 WORKERS NNPS	1
 32.8 CD	3
-incompatible JJ	2
+fanatic JJ	1
 Education NNP	15
 Tales NNS	1
 champagne NN	3
 Sidley NNP	5
+immediate-response JJ	1
 satisfy VB	10
 FARMERS NNS	1
 reinvented VBD	1
@@ -42451,6 +42451,7 @@ dollar NN	286
 school VB	1
 accuses VBZ	4
 Jacques NNP	4
+McKinney NNP	5
 percenter NN	1
 European NNP	50
 approaching VBG	7
@@ -42470,7 +42471,7 @@ die NN	1
 classics NNS	2
 barely RB	25
 Clendenin NNP	1
-such JJ	805
+mascara NN	1
 Richmond-Watson NNP	2
 sharpness NN	1
 steriles NNS	1
@@ -42576,7 +42577,6 @@ behind NN	1
 Whoopee UH	1
 Peat NNP	5
 government-owned JJ	8
-Atari NNP	1
 Iverson NNP	10
 despicable JJ	1
 could MD	1071
@@ -43204,7 +43204,6 @@ skirting VBG	1
 Especially RB	4
 fingering NN	1
 run-up NN	5
-order-taking NN	1
 demobilizing VBG	1
 salesparson NN	1
 Floating JJ	1
@@ -43477,7 +43476,7 @@ minimalism NN	2
 chemist NN	3
 contestants NNS	1
 50 CD	334
-titled VBN	6
+encouraging VBG	9
 Numerous JJ	2
 drug-policy NN	1
 ticklish JJ	1
@@ -43490,6 +43489,7 @@ flat-to-lower JJ	1
 dwindling VBG	1
 Ernst NNP	8
 yes UH	11
+hydroelectric JJ	1
 purges VBZ	1
 decadence NN	2
 CAPITAL NN	1
@@ -43942,7 +43942,7 @@ Hoelzer NNP	6
 monarchy NN	1
 Persuading VBG	1
 toxin NN	13
-assists VBZ	1
+50.8 CD	1
 examiners NNS	4
 market-moving JJ	2
 Rockwell NNP	10
@@ -44014,7 +44014,7 @@ Leftist JJ	1
 Payson NNP	2
 Ungaretti NNP	1
 Joan NNP	8
-Jamie NNP	7
+Duesseldorf NNP	2
 Meshulam NNP	1
 bullish JJ	19
 11:15 CD	1
@@ -44052,7 +44052,7 @@ Fund NN	7
 barns NNS	1
 malignancy NN	2
 suggested JJ	1
-multifamily RB	1
+12:06 CD	1
 INVESTMENT NNP	1
 Summerfolk NNP	3
 Worth NNP	12
@@ -44071,6 +44071,7 @@ accountable JJ	4
 disqualified VBN	1
 368.24 CD	1
 Matt NNP	3
+Warburgs NNPS	1
 burbles VBZ	1
 RTS NNP	1
 Yaniv NNP	1
@@ -44247,6 +44248,7 @@ Broken JJ	1
 Gomel NNP	1
 perversities NNS	1
 TechDesign NNP	1
+Eslinger NNP	1
 Vanity NNP	4
 imagined VBN	1
 430,000 CD	2
@@ -44399,7 +44401,6 @@ chicken-mutilating JJ	1
 SKF NNP	7
 Off IN	2
 10:45 CD	1
-Livestock NN	1
 dabbling VBG	1
 521.2 CD	1
 anti-abortion NN	1
@@ -44667,7 +44668,7 @@ Thank VB	2
 E-71 NNP	1
 proofreading VBG	1
 Highways NNS	1
-small-town JJ	6
+propane NN	6
 84-6 JJ	1
 hot-dipped JJ	9
 voice NN	26
@@ -44688,7 +44689,7 @@ cement VB	2
 364.1 CD	1
 Zoeller NNP	2
 2,888,000 CD	1
-Names NNPS	1
+open-market NN	1
 bones NNS	3
 Rudman NNP	5
 Gliedman NNP	2
@@ -44812,13 +44813,13 @@ NOTE NN	1
 may MD	808
 Edison NNP	10
 freezers NNS	1
+916.3 CD	1
 employee-benefit JJ	1
 thief NN	3
 8.5 CD	22
 op-ed JJ	1
 successors NNS	5
 confesses VBZ	5
-Both PDT	1
 cutoff NN	1
 Acting VBG	1
 ambulance NN	5
@@ -44991,6 +44992,7 @@ bewildered VBN	1
 Ohio-based JJ	2
 line VB	5
 Millie NNP	1
+endanger VB	5
 multiplied VBN	1
 Keizai NNP	4
 Restaurants NNP	2
@@ -45017,7 +45019,7 @@ rabid JJ	1
 fastest JJS	5
 Than IN	2
 malls NNS	5
-fly NN	3
+slicing VBG	1
 naughtier JJR	1
 videotapes NNS	1
 4,600 CD	1
@@ -45030,7 +45032,7 @@ Moscom NNP	2
 Bristol NNP	3
 savings NN	6
 responsiblilty NN	1
-FARMING NNP	1
+Device NN	1
 Profits NNS	7
 210 CD	5
 Tesoro NNP	6
@@ -45155,7 +45157,6 @@ Camel NNP	1
 128.1 CD	1
 viable JJ	13
 CAROLG NNP	1
-Domestic NNP	1
 protest NN	13
 Tourism NNP	2
 anatomical JJ	2
@@ -45206,7 +45207,6 @@ extermination NN	1
 Amen UH	1
 Alcan NNP	3
 genetically RB	7
-produced VBN	49
 43,000 CD	3
 denial NN	3
 measuring VBG	7
@@ -45234,7 +45234,6 @@ Offered NNP	1
 money-back JJ	2
 bellwether NN	7
 ceded VBN	1
-sows VBZ	1
 parliamentarian NN	1
 underwhelmed VBN	1
 monopolies NNS	6
@@ -45473,6 +45472,7 @@ indulges VBZ	1
 dinosaurs NNS	1
 MPI NNP	2
 Equipped VBN	1
+nonlethal JJ	1
 D NNP	10
 680.6 CD	1
 shorter-term JJ	1
@@ -45617,6 +45617,7 @@ Corn NNP	2
 clot-reducing JJ	1
 quieting VBG	1
 vertical JJ	1
+takeover-threat NN	1
 shattered JJ	1
 curtains NNS	1
 Evans-Black NNP	1
@@ -45696,6 +45697,7 @@ spread VB	9
 8.032 CD	1
 outlook NN	43
 CS NNP	12
+drunk NN	1
 26-year-old JJ	2
 Morley NNP	1
 week NN	686
@@ -45839,13 +45841,11 @@ won NNS	1
 Alaska NNP	18
 tighten VBP	1
 62.5 CD	17
-Korotich NNP	9
+depleted VBN	2
 contenders NNS	1
 words NNS	56
-interdependence NN	1
 Bacon NNP	1
 receptionists NNS	1
-czar NN	3
 Communism NNP	1
 Schwinn NNP	2
 Differences NNS	1
@@ -46041,7 +46041,6 @@ dam NN	4
 vineyards NNS	1
 libraries NNS	1
 yearend NN	1
-537 CD	1
 Offices NNS	4
 nomination NN	5
 mockingly RB	1
@@ -46091,7 +46090,7 @@ Strategies NNP	1
 teen-agers NNS	2
 Toni NNP	4
 softy NN	1
-living VBG	29
+estimate VBP	22
 present NN	6
 12.25 CD	1
 pawn NN	8
@@ -46100,6 +46099,7 @@ Friends NNS	1
 sleeping NN	1
 gloom NN	4
 grandly RB	1
+exceeds VBZ	11
 persuades VBZ	1
 cockiness NN	1
 tends VBZ	12
@@ -46115,6 +46115,7 @@ implemented VBD	2
 Nutmeg NNP	1
 rebounding VBG	4
 28.3 CD	1
+16.9 CD	2
 underperformed VBN	1
 mouth NN	6
 hell-bent JJ	1
@@ -46192,6 +46193,7 @@ Rejoins VBZ	1
 43.375 CD	2
 shuttled VBN	1
 affectionate JJ	1
+Susumu NNP	1
 retinoblastoma NN	7
 pillar NN	4
 366.89 CD	1
@@ -46252,6 +46254,7 @@ surgically RB	1
 Mobil NNP	30
 357.4 CD	1
 madman NN	1
+3.83 CD	1
 segments NNS	17
 normalcy NN	5
 Butch NNP	1
@@ -46261,7 +46264,7 @@ habit NN	5
 facility NN	63
 high-definition JJ	11
 erroneously RB	1
-chimes VBZ	1
+afire RB	1
 listing VBG	5
 accounting-rules JJ	1
 discount-retailing NN	2
@@ -46331,6 +46334,7 @@ swept VBD	2
 flow VBP	1
 Heating NN	2
 dictator NN	14
+2.4375 CD	1
 tunnel NN	6
 standstill JJ	6
 NASDA NNP	1
@@ -46477,7 +46481,6 @@ amuse VBP	1
 discounting NN	13
 Hixson NNP	2
 4.35 CD	2
-Otherwise RB	15
 summoning VBG	1
 English-language JJ	4
 resold VBP	1
@@ -46639,7 +46642,6 @@ optical-products NNS	1
 deliberations NNS	6
 narrative NN	2
 insulate VBP	1
-Rolls-Royce NNP	2
 spice NN	1
 beige JJ	1
 17-year-old JJ	1
@@ -46665,7 +46667,7 @@ No DT	82
 STEEL NNP	1
 cancerous JJ	3
 sell-off NN	32
-Future NNP	1
+unfavorably RB	1
 Depicting VBG	1
 Balmy JJ	1
 Aer NNP	10
@@ -46762,7 +46764,6 @@ fiasco NN	2
 Prosecutors NNS	7
 mythic JJ	1
 buyer NN	48
-Irises NNS	2
 Chambers NNPS	1
 reap VB	6
 discussed VBD	5
@@ -46815,8 +46816,9 @@ plans VBZ	168
 Tharp NNP	7
 debtors NNS	2
 Seal NNP	1
+dumps NNS	1
 Cinzano NNP	1
-stalked VBN	2
+prevents VBZ	6
 cents NNS	778
 1.439 CD	1
 journey NN	3
@@ -47015,7 +47017,6 @@ last JJ	1007
 dozens NNS	14
 214,000 CD	1
 I.W. NNP	1
-thrift-institution NN	1
 reformers NNS	6
 glint NN	1
 14-point JJ	1
@@ -47025,7 +47026,6 @@ Danvers NNP	2
 place VB	14
 eyewitness NN	1
 Success NNP	5
-16.9 CD	2
 110 CD	25
 performance-related JJ	1
 41.4 CD	1
@@ -47039,6 +47039,7 @@ appartus NN	1
 recommended JJ	3
 listings NNS	6
 Lowell NNP	5
+coherence NN	1
 7.71 CD	1
 Scotto NNP	3
 10.43 CD	1
@@ -47133,7 +47134,7 @@ contraction NN	5
 read NN	1
 extradition NN	5
 frayed VBN	1
-Road NNP	2
+evaders NNS	2
 spend VB	64
 addiction-treatment JJ	2
 Cupertino NNP	8
@@ -47315,7 +47316,6 @@ extraditions NNS	1
 Animated JJ	1
 dignified JJ	1
 extends VBZ	5
-drunk NN	1
 Weston NNP	3
 nowadays RB	2
 securitiess NN	1
@@ -47401,7 +47401,6 @@ AT&T-sponsored JJ	1
 restoring VBG	6
 world-class JJ	4
 582 CD	2
-Tese NNP	1
 4/4 CD	1
 Seaman NNP	5
 Reference NNP	1
@@ -47460,6 +47459,7 @@ Schantz NNP	2
 well-being NN	4
 1950s CD	6
 self-imposed JJ	2
+abashed JJ	1
 Federalist NNP	1
 puzzled VBD	2
 surveys VBZ	1
@@ -47813,6 +47813,7 @@ if IN	813
 inflows NNS	7
 outfly VB	2
 0.06 CD	1
+abating VBG	1
 1989-1990 CD	1
 government-set VBN	1
 13.32 CD	2
@@ -47918,7 +47919,7 @@ inspired VBN	6
 first-mortgage JJ	1
 Smuzynski NNP	1
 12.76 CD	1
-fanatic JJ	1
+incompatible JJ	2
 parking VBG	1
 FileNet NNP	5
 express VBP	2
@@ -47960,6 +47961,7 @@ Hecla NNP	1
 persistence NN	2
 egotist NN	1
 size NN	94
+Forecasts NNS	1
 periods NNS	16
 Shorted JJ	1
 Trading NN	15
@@ -48079,7 +48081,7 @@ Ehman NNP	3
 substituting VBG	3
 Tagg NNP	1
 Hanwa NNP	1
-mascara NN	1
+such JJ	805
 Broberg NNP	3
 Hoboken NNP	1
 alienates VBZ	1
@@ -48095,7 +48097,6 @@ dropouts NNS	2
 dispute VB	1
 contagious JJ	2
 sentencing NN	4
-wrest VB	1
 low-level JJ	2
 broadside NN	1
 geometry NN	1
@@ -48280,7 +48281,6 @@ Directorate NN	1
 kneading VBG	1
 Petroliam NNP	1
 stock-taking NN	1
-toppled VBD	3
 not-for-profit JJ	2
 discoveries NNS	3
 Eighteen CD	2
@@ -48530,6 +48530,7 @@ jab NN	1
 movement NN	44
 stuffy JJ	1
 Dieter NNP	1
+448.49 CD	1
 Garish JJ	1
 riding NN	2
 non-objective JJ	1
@@ -48662,6 +48663,7 @@ Could MD	5
 833 CD	1
 Reina NNP	1
 Municipal JJ	8
+SHOPS NNS	1
 Someone NN	5
 Flights NNS	1
 soon-to-be JJ	1
@@ -48771,6 +48773,7 @@ color-coding VBG	1
 permitted VBD	6
 Mihalek NNP	1
 Terms NNS	38
+Lavidge NNP	1
 Bullock NNP	6
 readiness NN	2
 sailing NN	4
@@ -48787,6 +48790,7 @@ Birinyi NNP	2
 unseen JJ	2
 317 CD	2
 even RP	1
+breezy JJ	1
 intensifying VBG	4
 mild-mannered JJ	1
 equips VBZ	1
@@ -48982,7 +48986,7 @@ daughter NN	13
 scrambles NNS	1
 crumpled JJ	1
 Wallace NNP	1
-conceded VBD	19
+organizers NNS	2
 non-recurring JJ	5
 Ulric NNP	1
 contend VB	3
@@ -49087,7 +49091,7 @@ Bell NNP	60
 machinery NN	27
 metaphors NNS	2
 bumps NNS	1
-Collateralized NNP	1
+galvanized VBD	3
 contacts NNS	11
 Nuclear NNP	8
 Hard-hitting JJ	1
@@ -49159,7 +49163,6 @@ Edge NN	1
 95.75 CD	1
 found VBD	119
 Lieberman NNP	2
-Cahoon NNP	1
 lengthened VBN	3
 CBOE NNP	17
 speculative JJ	5
@@ -49284,7 +49287,6 @@ last-place JJ	2
 decentralized VBN	1
 0.3 CD	19
 neurologists NNS	2
-libeled VBN	1
 quadrupeds NNS	1
 direct-mail-mogul NN	1
 halting JJ	1
@@ -49305,7 +49307,6 @@ TV NN	104
 reveling VBG	1
 horses NNS	8
 17-member JJ	1
-happier JJR	1
 County NNP	72
 uptick NN	1
 sadly RB	3
@@ -49324,6 +49325,7 @@ suspense NN	1
 torch-lit JJ	1
 PROPOSAL NN	1
 Luzon NNP	11
+viewing NN	1
 Mixte NNP	58
 Wilder NNP	3
 seven-year JJ	9
@@ -49376,7 +49378,6 @@ priori FW	1
 Fresenius NNP	16
 electromagnets NNS	1
 Jacksonville NNP	1
-hand-sized JJ	1
 Non-interest JJ	1
 clergyman NN	2
 tougher RBR	1
@@ -49463,7 +49464,7 @@ single-store JJ	1
 maharajahs NNS	1
 Be VB	6
 Alcoa NNP	1
-Woodbridge NNP	4
+GRAB NNP	1
 downed VBD	1
 correspond VB	1
 wishes VBZ	5
@@ -49637,7 +49638,7 @@ antique NN	1
 6/32 CD	5
 replicated VBN	1
 63.875 CD	1
-mass-distribution JJ	1
+supreme JJ	1
 processes VBZ	7
 microscope NN	3
 Export NNP	3
@@ -50027,7 +50028,7 @@ quarter NN	780
 Pro FW	1
 Brady NNP	38
 pepper NN	1
-material NN	45
+Lion NNP	9
 4,750,000 CD	1
 Lutheran NNP	1
 transistors NNS	1
@@ -50153,7 +50154,7 @@ long-dormant JJ	1
 INTERNATIONAL NNP	3
 1.23-a-pound JJ	1
 683 CD	1
-treasures NNS	2
+loyalty NN	30
 bottom NN	19
 HUTTON NNP	1
 Electrosurgery NNP	1
@@ -50195,6 +50196,7 @@ clipboard NN	2
 co-host VB	1
 Included VBN	3
 curb VB	20
+Huy NNP	1
 sank VBD	14
 Automobiles NNS	1
 Persian NNP	7
@@ -50239,7 +50241,6 @@ raccoon-skin JJ	1
 Butte NNP	1
 colorlessness NN	1
 taming VBG	1
-Smolensk NNP	1
 42-a-share JJ	1
 anti-Western JJ	1
 wish VB	3
@@ -50289,6 +50290,7 @@ sat VBN	4
 breathing NN	2
 2004 CD	15
 2.15-per-unit JJ	1
+Names NNPS	1
 Moslems NNS	1
 distract VB	1
 privacy NN	6
@@ -50322,7 +50324,6 @@ Patrick NNP	11
 packing VBG	1
 now-evident JJ	1
 crystalline JJ	1
-odd-looking JJ	1
 Quality NNP	2
 unusually RB	18
 invalidated VBD	1
@@ -50542,6 +50543,7 @@ caring JJ	1
 citywide JJ	2
 bishop NN	3
 bet VBN	1
+333.3 CD	1
 Photoprotective NNP	1
 circumlocution NN	1
 whipsaw NN	1
@@ -51027,7 +51029,7 @@ ugly JJ	2
 Debate NN	2
 alternating VBG	2
 Putnam NNP	4
-Vranian NNP	1
+Freedom NN	1
 calculation NN	5
 2,809 CD	1
 alarmed JJ	2
@@ -51202,7 +51204,6 @@ Reducing VBG	1
 stingy JJ	1
 mounting VBG	13
 one CD	1220
-hitch NN	2
 wellplaced JJ	1
 soporific JJ	1
 hurry VB	1
@@ -51216,7 +51217,7 @@ kick VB	1
 next IN	79
 leaks NNS	6
 Vahid NNP	1
-Vortex NN	1
+Irises NNS	2
 Antwerp NNP	1
 special-projects JJ	1
 addict NN	1
@@ -51549,7 +51550,7 @@ Grievances NNP	1
 rods NNS	1
 TED NNP	1
 K NNP	24
-Freedom NN	1
+heighten VB	3
 CSX NNP	1
 resurfaced VBN	1
 training NN	39
@@ -51655,7 +51656,6 @@ Luxembourg-based JJ	1
 romp VBP	1
 oak NN	3
 Immunex NNP	5
-12:06 CD	1
 301-year-old JJ	1
 2638.73 CD	5
 suspect VB	4

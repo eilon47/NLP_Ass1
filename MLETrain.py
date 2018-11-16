@@ -78,6 +78,7 @@ def check_dict(tag1,tag2,tag3,q_dict):
 def get_q(q_dict,tag1, tag2, tag3, num_words):
     l1, l2, l3 = 1.0 / 2, 1.0 / 3, 1.0 / 6
     b, ab, bc, abc = [1.0] * 4
+    c = q_dict[tag3]
     abc_t, ab_t, bc_t, b_t = get_combinations(tag1, tag2, tag3)
     if abc_t in q_dict.keys():
         abc = float(q_dict[abc_t])
