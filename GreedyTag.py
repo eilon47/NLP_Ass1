@@ -3,9 +3,10 @@ import MLETrain as mle
 import numpy as np
 
 
-S_TAGS = ['START']
-tags = ['a','b','c']
+S_TAGS = 'START'
 number_of_words = 0
+
+
 def get_num_of_words(w_dict):
     global number_of_words
     if number_of_words is 0:
@@ -14,6 +15,21 @@ def get_num_of_words(w_dict):
     return number_of_words
 
 
+def tag_sentence(line, q_dict,e_dict,w_dict,t_dict,unk_dict):
+    ppt, pt = S_TAGS, S_TAGS
+    result_sentence = []
+    words = line.split(" ")
+    first_word = words[0]
+    if first_word not in w_dict.keys() and first_word.lower() in w_dict.keys():
+        words[0] = words[0].lower()
+    for word in words:
+        word_tag = tag_word(ppt, pt, word, q_dict, e_dict, w_dict, t_dict, unk_dict)
+        result_sentence.append("{}/{}".format(word, word_tag))
+        ppt = pt
+        pt = word_tag
+    t = result_sentence[0]
+    result_sentence[0] = t.title()
+    return " ".join(result_sentence)
 
 
 def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict):
@@ -21,18 +37,18 @@ def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict)
     arg_max = ''
     num_of_words = get_num_of_words(w_dict)
     #in case we already know the word
-    if word in w_dict.keys():
+    try:
+        count = w_dict[word]
         for yi in t_dict.keys():
-            if str(prev_prev_tag+" "+prev_tag+" "+yi) not in q_dict.keys():
-                continue
-
             # add log
+            if yi == "JJ":
+                pass
             temp_q = mle.get_q(q_dict,prev_prev_tag,prev_tag,yi,num_of_words)
             temp_e = mle.get_e(word,yi,q_dict,e_dict,unk_dict)
-            if(temp_e+temp_q) > max_yi:
-                max_yi = temp_e+temp_q
+            if temp_e*temp_q > max_yi:
+                max_yi = temp_e*temp_q
                 arg_max = yi
-    else:
+    except KeyError:
         t = mle.get_special_signature(word)
         if t is None:
             return "UNK"
@@ -44,22 +60,17 @@ def tag_word(prev_prev_tag,prev_tag, word,q_dict,e_dict, w_dict,t_dict,unk_dict)
         arg_max = max_key[-1]
     return arg_max
 
+
 def tag_file(in_file, out_file, q_dict, e_dict, w_dict, t_dict, unk_dict):
     fd = open(in_file)
     data = fd.read()
+    data = data.splitlines()
     fd.close()
-    spaces_split_data = []
     fd = open(out_file,'w')
-    for l in data.splitlines():
-        spaces_split_data += l.split(' ')
-    p_p_t = S_TAGS[0]
-    p_t = S_TAGS[0]
-    for word in spaces_split_data:
-        t = tag_word(p_p_t,p_t,word,q_dict,e_dict,w_dict,t_dict,unk_dict)
-        p_p_t = p_t
-        p_t = t
-        fd.write(str(word+'/'+t+' '))
-        print str(word+'/'+t+' ')
+    for line in data:
+        result = tag_sentence(line, q_dict,e_dict,w_dict,t_dict,unk_dict)
+        fd.write(result + '\n')
+        print result
 
 
 if __name__ == '__main__':

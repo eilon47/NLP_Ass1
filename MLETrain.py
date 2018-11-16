@@ -36,7 +36,7 @@ def create_dictionaries(q_mle, e_mle):
             continue
         key, counter = line.split('\t')
         #if counter.strip().isnumeric():
-        q_dict[key] = int(counter.strip())
+        q_dict[key.strip()] = int(counter.strip())
     # creating the e dictionary
     fd_e = open(e_mle, 'r')
     for line in fd_e:
@@ -47,6 +47,8 @@ def create_dictionaries(q_mle, e_mle):
         key, counter = line.split('\t')
         # gets w,t
         word,tag = key.split(' ')
+        word = word.strip()
+        tag = tag.strip()
         # if counter.strip().isnumeric():
         e_dict[key] = int(counter.strip())
 
@@ -93,7 +95,7 @@ def get_q(q_dict,tag1, tag2, tag3, num_words):
         ab = float(q_dict[ab_t])
     if bc_t in q_dict.keys():
         bc = float(q_dict[bc_t])
-    if b_t in q_dict.keys:
+    if b_t in q_dict.keys():
         b = float(q_dict[b_t])
     q = l1*(abc/ab) + l2*(bc/b) + l3* (c/num_words)
     return q
